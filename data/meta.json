@@ -1,17 +1,27 @@
 {
-  "updatedAt": "2026-11-14T13:08:25+00:00",
-  "meals": 765,
-  "restaurants": 51,
+  "updatedAt": "2026-11-14T13:18:45+00:00",
+  "meals": 2085,
+  "restaurants": 142,
   "areas": [
+    "downtown-burj-khalifa",
+    "jumeirah-lakes-towers-jlt",
     "dubai-marina",
     "business-bay",
     "al-barsha-1",
     "jumeirah-village-circle-jvc",
     "al-nahda",
+    "al-karama",
+    "reem-island",
+    "al-raha-beach",
+    "yas-island",
+    "al-khalidiyah",
+    "tourist-club-area-(al-zahiya)",
+    "mohammed-bin-zayed-city",
+    "mussafah",
     "al-majaz-2"
   ],
   "providers": {
-    "TALABAT": 765,
+    "TALABAT": 2085,
     "KEETA": 0
   },
   "errors": []
