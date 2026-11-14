@@ -1,0 +1,27 @@
+name: Probe providers
+
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "Space-separated URLs to probe (blank = defaults)"
+        required: false
+        default: ""
+  push:
+    branches: [ main ]
+    paths:
+      - "scraper/probe.py"
+      - ".github/workflows/probe.yml"
+
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Probe
+        run: python scraper/probe.py ${{ github.event.inputs.urls }}
