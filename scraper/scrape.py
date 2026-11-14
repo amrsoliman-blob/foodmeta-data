@@ -348,6 +348,74 @@ def menu_for(r: dict, debug_once: list) -> list[dict]:
     return meals
 
 
+# ------------------------------------------------------------- deliveroo ---
+# Deliveroo publishes every restaurant menu page in its sitemap (linked from robots.txt).
+# We only read the sitemap here; prices are read later on the user's phone, one page
+# per dish they open, like a person viewing the page.
+
+DELIVEROO_SITEMAPS = [f"https://deliveroo.ae/en/sitemap-menu-landing-pages-{n}.xml" for n in (1, 2, 3)]
+DELIVEROO_CITY = {"Dubai": "dubai", "Abu Dhabi": "abu-dhabi", "Sharjah": "sharjah",
+                  "Al Ain": "al-ain", "Ajman": "ajman", "Ras Al Khaimah": "ras-al-khaimah"}
+BRAND_STOP = {"restaurant", "restaurants", "cafe", "kitchen", "llc", "branch", "the"}
+
+
+def _tok(s: str) -> list[str]:
+    out = []
+    for w in re.sub(r"[^a-z0-9]+", " ", s.lower()).split():
+        if len(w) < 2:
+            continue
+        if len(w) > 3 and w.endswith("s") and not w.endswith("ss"):
+            w = w[:-1]
+        out.append(w)
+    return out
+
+
+def _brand_tokens(restaurant: str) -> list[str]:
+    head = re.split(r"[,|(]| - ", restaurant)[0]
+    return [t for t in _tok(head) if t not in BRAND_STOP]
+
+
+def deliveroo_index(meals: list[dict], area_slug: dict[str, str]) -> dict | None:
+    """{"<restaurant>|<areaId>": [up to 3 Deliveroo menu URLs, best first]}"""
+    urls: list[str] = []
+    for sm in DELIVEROO_SITEMAPS:
+        xml = get(sm)
+        if not xml:
+            return None
+        urls += re.findall(r"<loc>(https://deliveroo\.ae/(?:en/)?menu/[^<]+)</loc>", xml)
+    urls = list(dict.fromkeys(urls))
+    by_city: dict[str, list[tuple[list[str], list[str], str]]] = {}
+    for u in urls:
+        m = re.search(r"/menu/([^/]+)/([^/]+)/([^/?#]+)", u)
+        if m:
+            by_city.setdefault(m.group(1), []).append((_tok(m.group(2)), _tok(m.group(3)), u))
+    log(f"deliveroo sitemap: {len(urls)} menu pages in {len(by_city)} cities")
+
+    index: dict[str, list[str]] = {}
+    seen = {}
+    for meal in meals:
+        key = f"{meal['restaurant']}|{meal['area']}"
+        if key in seen:
+            continue
+        seen[key] = True
+        brand = _brand_tokens(meal["restaurant"])
+        city = DELIVEROO_CITY.get(meal["city"])
+        if not brand or not city:
+            continue
+        want_area = set(_tok(area_slug.get(str(meal["area"]), "")))
+        cands = []
+        for area_t, slug_t, u in by_city.get(city, []):
+            if slug_t[:len(brand)] != brand:
+                continue
+            overlap = len(want_area & set(area_t + slug_t[len(brand):]))
+            cands.append((overlap, -len(slug_t), u))
+        if cands:
+            cands.sort(reverse=True)
+            index[key] = [u for _, _, u in cands[:3]]
+    log(f"deliveroo matches: {len(index)} of {len(seen)} restaurants")
+    return index
+
+
 def main() -> int:
     started = datetime.now(timezone.utc)
     areas = resolve_areas()
@@ -384,6 +452,15 @@ def main() -> int:
     # Stable order (small git diffs): by restaurant, then menu position.
     all_meals.sort(key=lambda m: (m["id"].rsplit("-", 1)[0], m["rank"]))
     (OUT_DIR / "meals.json").write_text(json.dumps(all_meals, ensure_ascii=False, indent=1))
+
+    try:
+        idx = deliveroo_index(all_meals, {aid: slug for aid, slug, _ in areas})
+        if idx:
+            (OUT_DIR / "deliveroo.json").write_text(json.dumps(idx, ensure_ascii=False, indent=1, sort_keys=True))
+            meta["deliverooMatches"] = len(idx)
+    except Exception as e:  # never let Deliveroo break the Talabat feed
+        log("deliveroo index failed:", e)
+        stats["errors"].append(f"deliveroo index: {e}")
     (OUT_DIR / "meta.json").write_text(json.dumps(meta, indent=2))
     return 0
 
