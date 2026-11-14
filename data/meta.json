@@ -1,0 +1,18 @@
+{
+  "updatedAt": "2026-11-14T13:08:25+00:00",
+  "meals": 765,
+  "restaurants": 51,
+  "areas": [
+    "dubai-marina",
+    "business-bay",
+    "al-barsha-1",
+    "jumeirah-village-circle-jvc",
+    "al-nahda",
+    "al-majaz-2"
+  ],
+  "providers": {
+    "TALABAT": 765,
+    "KEETA": 0
+  },
+  "errors": []
+}
