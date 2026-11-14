@@ -33,26 +33,24 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "data"
 
 DEFAULT_AREAS = [
-    # "id/slug" = exact Talabat area (from /uae/all-areas/restaurants); plain slug = looked up
-    # Dubai
-    "1258/downtown-burj-khalifa",
-    "1308/jumeirah-lakes-towers-jlt",
-    "dubai-marina",
-    "business-bay",
-    "al-barsha-1",
-    "jumeirah-village-circle",
-    "al-nahda",
-    "1187/al-karama",
-    # Abu Dhabi
-    "1492/reem-island",
-    "6816/al-raha-beach",
-    "1498/yas-island",
-    "1441/al-khalidiyah",
-    "1496/tourist-club-area-(al-zahiya)",
-    "1484/mohammed-bin-zayed-city",
-    "1485/mussafah",
-    # Sharjah
-    "al-majaz",
+    # "City|id/slug" — exact Talabat areas from /uae/all-areas/restaurants
+    "Dubai|1258/downtown-burj-khalifa",
+    "Dubai|1308/jumeirah-lakes-towers-jlt",
+    "Dubai|1272/dubai-marina",
+    "Dubai|1252/business-bay",
+    "Dubai|1174/al-barsha-1",
+    "Dubai|1310/jumeirah-village-circle-jvc",
+    "Dubai|1187/al-karama",
+    "Dubai|1204/al-nahda-1",
+    "Abu Dhabi|1492/reem-island",
+    "Abu Dhabi|6816/al-raha-beach",
+    "Abu Dhabi|1498/yas-island",
+    "Abu Dhabi|1441/al-khalidiyah",
+    "Abu Dhabi|1496/tourist-club-area-(al-zahiya)",
+    "Abu Dhabi|1484/mohammed-bin-zayed-city",
+    "Abu Dhabi|1485/mussafah",
+    "Sharjah|1531/al-majaz-2",
+    "Sharjah|1540/al-nahda",
 ]
 AREAS = [a.strip() for a in os.getenv("AREAS", ",".join(DEFAULT_AREAS)).split(",") if a.strip()]
 MAX_RESTAURANTS = int(os.getenv("MAX_RESTAURANTS_PER_AREA", "10"))
@@ -172,7 +170,14 @@ def describe(obj, depth=0, max_depth=3) -> str:
 
 # ---------------------------------------------------------------- areas ---
 
-def resolve_areas() -> list[tuple[str, str]]:
+def resolve_areas() -> list[tuple[str, str, str]]:
+    """Returns (area id, area slug, city)."""
+    specs = []
+    for entry in AREAS:
+        city, _, spec = entry.rpartition("|")
+        specs.append((city or "UAE", spec))
+    if all("/" in spec for _, spec in specs):  # all exact: no lookup needed
+        return [(spec.split("/", 1)[0], spec.split("/", 1)[1], city) for city, spec in specs]
     found: dict[str, str] = {}
     for page in ("/uae/all-areas/restaurants", "/uae/all-areas"):
         html = get(BASE + page)
@@ -183,29 +188,29 @@ def resolve_areas() -> list[tuple[str, str]]:
             break
     log(f"all-areas: {len(found)} area links found")
     out = []
-    for want in AREAS:
+    for city, want in specs:
         if "/" in want:  # exact "id/slug"
             aid, slug = want.split("/", 1)
-            out.append((aid, slug))
+            out.append((aid, slug, city))
             continue
         if want in found:
-            out.append((found[want], want))
+            out.append((found[want], want, city))
             continue
         # loose match, e.g. "jumeirah-lake-towers" vs "jumeirah-lake-towers-jlt"
         match = (next((s for s in found if s.startswith(want)), None)
                  or next((s for s in found if want in s), None))
         if match:
-            out.append((found[match], match))
+            out.append((found[match], match, city))
         else:
             log(f"  area not found: {want}")
     if not out and found:
-        out = [(aid, s) for s, aid in list(found.items())[:5]]
+        out = [(aid, s, "UAE") for s, aid in list(found.items())[:5]]
     return out
 
 
 # ---------------------------------------------------------- restaurants ---
 
-def restaurants_in_area(aid: str, slug: str) -> list[dict]:
+def restaurants_in_area(aid: str, slug: str, city: str) -> list[dict]:
     html = get(f"{BASE}/uae/restaurants/{aid}/{slug}")
     if not html:
         return []
@@ -239,6 +244,7 @@ def restaurants_in_area(aid: str, slug: str) -> list[dict]:
             "branchId": bid,
             "slug": rslug,
             "aid": aid,
+            "city": city,
             "name": d.get("name"),
             "rating": to_float(first(d, "rate", "rating", "avgRating")),
             "deliveryFee": to_float(first(d, "deliveryFee", "deliveryCharges", "deliveryCost")),
@@ -313,6 +319,7 @@ def menu_for(r: dict, debug_once: list) -> list[dict]:
             "deepLink": url,
             "canonicalId": f"{norm(name.split(',')[0])}::{norm(iname)}",
             "area": r["aid"],
+            "city": r["city"],
         })
         if len(meals) >= MAX_ITEMS:
             break
@@ -326,8 +333,8 @@ def main() -> int:
     seen_branches: set[str] = set()
     all_meals: list[dict] = []
     debug_once: list = []
-    for aid, slug in areas:
-        for r in restaurants_in_area(aid, slug):
+    for aid, slug, city in areas:
+        for r in restaurants_in_area(aid, slug, city):
             if r["branchId"] in seen_branches:
                 continue
             seen_branches.add(r["branchId"])
@@ -343,7 +350,8 @@ def main() -> int:
         "updatedAt": started.isoformat(timespec="seconds"),
         "meals": len(all_meals),
         "restaurants": len(seen_branches),
-        "areas": [s for _, s in areas],
+        "areas": [f"{c}: {s}" for _, s, c in areas],
+        "cities": {c: sum(1 for m in all_meals if m["city"] == c) for c in dict.fromkeys(c for _, _, c in areas)},
         "providers": {"TALABAT": len(all_meals), "KEETA": 0},
         "errors": stats["errors"][:20],
     }
