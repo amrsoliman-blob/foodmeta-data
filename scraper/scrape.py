@@ -33,16 +33,26 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "data"
 
 DEFAULT_AREAS = [
+    # "id/slug" = exact Talabat area (from /uae/all-areas/restaurants); plain slug = looked up
+    # Dubai
+    "1258/downtown-burj-khalifa",
+    "1308/jumeirah-lakes-towers-jlt",
     "dubai-marina",
-    "jumeirah-lake-towers",
-    "downtown-dubai",
     "business-bay",
     "al-barsha-1",
     "jumeirah-village-circle",
     "al-nahda",
-    "bur-dubai",
-    "al-reem-island",          # Abu Dhabi
-    "al-majaz",                # Sharjah
+    "1187/al-karama",
+    # Abu Dhabi
+    "1492/reem-island",
+    "6816/al-raha-beach",
+    "1498/yas-island",
+    "1441/al-khalidiyah",
+    "1496/tourist-club-area-(al-zahiya)",
+    "1484/mohammed-bin-zayed-city",
+    "1485/mussafah",
+    # Sharjah
+    "al-majaz",
 ]
 AREAS = [a.strip() for a in os.getenv("AREAS", ",".join(DEFAULT_AREAS)).split(",") if a.strip()]
 MAX_RESTAURANTS = int(os.getenv("MAX_RESTAURANTS_PER_AREA", "10"))
@@ -61,8 +71,8 @@ HEADERS = {
 NEXT_DATA_RE = re.compile(
     r'<script[^>]+id="__NEXT_DATA__"[^>]*>(.*?)</script>', re.S
 )
-AREA_LINK_RE = re.compile(r'/uae/restaurants/(\d+)/([a-z0-9\-]+)')
-MENU_LINK_RE = re.compile(r'/uae/restaurant/(\d+)/([a-z0-9\-]+)')
+AREA_LINK_RE = re.compile(r'/uae/restaurants/(\d+)/([a-z0-9\-()]+)')
+MENU_LINK_RE = re.compile(r'/uae/restaurant/(\d+)/([a-z0-9\-()]+)')
 
 session = requests.Session()
 session.headers.update(HEADERS)
@@ -174,6 +184,10 @@ def resolve_areas() -> list[tuple[str, str]]:
     log(f"all-areas: {len(found)} area links found")
     out = []
     for want in AREAS:
+        if "/" in want:  # exact "id/slug"
+            aid, slug = want.split("/", 1)
+            out.append((aid, slug))
+            continue
         if want in found:
             out.append((found[want], want))
             continue
