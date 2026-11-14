@@ -1,0 +1,96 @@
+====================================================================================================
+URL https://deliveroo.ae/en/sitemap-index.xml
+  status=200 final=https://deliveroo.ae/en/sitemap-index.xml bytes=774 type=text/xml; charset=utf-8
+  server= cloudflare  cf-ray= a5a717dcbdeac4c8-IAD
+  title: None
+  --- body head ---
+  <?xml version='1.0' encoding='utf-8'?>
+  <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <sitemap>
+    <loc>https://deliveroo.ae/en/sitemap-homepage.xml</loc>
+   </sitemap>
+   <sitemap>
+    <loc>https://deliveroo.ae/en/sitemap-cuisines-landing-pages-1.xml</loc>
+   </sitemap>
+   <sitemap>
+    <loc>https://deliveroo.ae/en/sitemap-menu-landing-pages-1.xml</loc>
+   </sitemap>
+   <sitemap>
+    <loc>https://deliveroo.ae/en/sitemap-menu-landing-pages-2.xml</loc>
+   </sitemap>
+   <sitemap>
+    <loc>https://deliveroo.ae/en/sitemap-menu-landing-pages-3.xml</loc>
+   </sitemap>
+   <sitemap>
+    <loc>https://deliveroo.ae/en/sitemap-others-landing-pages-1.xml</loc>
+   </sitemap>
+   <sitemap>
+    <loc>https://deliveroo.ae/en/sitemap-reservations-landing-pages-1.xml</loc>
+   </sitemap>
+  </sitemapindex>
+====================================================================================================
+URL https://deliveroo.ae/en/sitemap-menu-landing-pages-1.xml
+  status=200 final=https://deliveroo.ae/en/sitemap-menu-landing-pages-1.xml bytes=973112 type=text/xml; charset=utf-8
+  server= cloudflare  cf-ray= a5a717ddc80f12b9-IAD
+  title: None
+  --- body head ---
+  <?xml version='1.0' encoding='utf-8'?>
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+   <url>
+    <loc>https://deliveroo.ae/menu/al-ain/ain-al-faydah/sway-beans-cafe</loc>
+   </url>
+   <url>
+    <loc>https://deliveroo.ae/menu/al-ain/ain-al-faydah/al-hashi</loc>
+   </url>
+   <url>
+    <loc>https://deliveroo.ae/menu/al-ain/ain-al-faydah/era-cafe-al-faydah</loc>
+   </url>
+   <url>
+    <loc>https://deliveroo.ae/menu/al-ain/al-ain-industrial/haleemwala</loc>
+   </url>
+   <url>
+    <loc>https://deliveroo.ae/menu/al-ain/al-ain-industrial/khob-khun</loc>
+   </url>
+   <url>
+    <loc>https://deliveroo.ae/menu/al-ain/al-ain-industrial/hengchen-amt</loc>
+   </url>
+   <url>
+    <loc>https://deliveroo.ae/menu/al-ain/al-ain-industrial/house-of-haleem</loc>
+   </url>
+   <url>
+    <loc>https://deliveroo.ae/menu/al-ain/al-ain-industrial/mazidar-haleem</loc>
+   </url>
+   <url>
+    <loc>https://deliveroo.ae/menu/al-ain/al-ain-industrial/maska-biryani</loc>
+   </url>
+   <url>
+    <loc>https://deliveroo.ae/menu/al-ain/al-ain-industrial/kfc-batha-al-hayer-adnoc</loc>
+   </url>
+   <url>
+    <loc>https://deliveroo.ae/menu/al-ain/al-ain-industrial/yin-and-yang</loc>
+   </url>
+   <url>
+    <loc>https://deliveroo.ae/menu/al-ain/al-ain-industrial/soup-a-nova-al-ain</loc>
+   </url>
+   <url>
+    <loc>https://deliveroo.ae/menu/al-ain/al-ain-industrial/the-oasis-chinese-amt</loc>
+   </url>
+   <url>
+    <loc>https://deliveroo.ae/menu/al-ain/al-ain-industrial/acai-genz-al-ain</loc>
+   </url>
+   <url>
+    <loc>https://deliveroo.ae/menu/al-ain/al-ain-industrial/sham-zaman</loc>
+   </url>
+   <url>
+    <loc>https://deliveroo.ae/menu/al-ain/al-ain-industrial/breakfast-by-maraheb-al-ain</loc>
+   </url>
+   <url>
+    <loc>https://deliveroo.ae/menu/al-ain/al-ain-industrial/rice-factory2</loc>
+   </url>
+   <url>
+    <loc>https://deliveroo.ae/menu/al-ain/al-ain-industrial/zencha-matcha</loc>
+   </url>
+   <url>
+    <loc>https://deliveroo.ae/menu/al-ain/al-ain-industrial/ming-hing</loc>
+   </url>
+   <url>
