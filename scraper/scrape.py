@@ -151,7 +151,8 @@ def to_float(v) -> float | None:
 
 def tidy(s: str) -> str:
     """Collapse stray whitespace: "IL Forno , Abu Dhabi" -> "IL Forno, Abu Dhabi"."""
-    return re.sub(r"\s+", " ", s).replace(" ,", ",").strip()
+    s = s.replace("\uff0c", ",")  # full-width comma used in some Talabat names
+    return re.sub(r"\s*,\s*", ", ", re.sub(r"\s+", " ", s)).strip().rstrip(",")
 
 
 def norm(s: str) -> str:
@@ -337,7 +338,7 @@ def menu_for(r: dict, debug_once: list) -> list[dict]:
             "cuisine": cuisine,
             "imageUrl": img,
             "deepLink": url,
-            "canonicalId": f"{norm(name.split(',')[0])}::{norm(iname)}",
+            "canonicalId": f"{norm(tidy(name).split(',')[0])}::{norm(iname)}",
             "rank": len(meals),  # position on the restaurant's menu (popular first)
             "area": r["aid"],
             "city": r["city"],
