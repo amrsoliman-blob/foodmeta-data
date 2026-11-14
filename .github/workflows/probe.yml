@@ -13,6 +13,9 @@ on:
       - "scraper/probe.py"
       - ".github/workflows/probe.yml"
 
+permissions:
+  contents: write
+
 jobs:
   probe:
     runs-on: ubuntu-24.04
@@ -24,4 +27,17 @@ jobs:
           python-version: "3.12"
       - run: pip install requests
       - name: Probe
-        run: python scraper/probe.py ${{ github.event.inputs.urls }}
+        run: |
+          mkdir -p probe
+          python scraper/probe.py ${{ github.event.inputs.urls }} 2>&1 | tee probe/report.txt
+      - name: Save report to the 'probe' branch
+        run: |
+          cp probe/report.txt /tmp/report.txt
+          git config user.name "foodmeta-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan probe-tmp
+          git rm -rf --quiet . || true
+          cp /tmp/report.txt report.txt
+          git add report.txt
+          git commit -m "Probe report" --quiet
+          git push -f origin HEAD:probe
