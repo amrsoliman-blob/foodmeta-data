@@ -149,6 +149,11 @@ def to_float(v) -> float | None:
         return None
 
 
+def tidy(s: str) -> str:
+    """Collapse stray whitespace: "IL Forno , Abu Dhabi" -> "IL Forno, Abu Dhabi"."""
+    return re.sub(r"\s+", " ", s).replace(" ,", ",").strip()
+
+
 def norm(s: str) -> str:
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
@@ -323,8 +328,8 @@ def menu_for(r: dict, debug_once: list) -> list[dict]:
             img = "https://images.deliveryhero.io/image/talabat/MenuItems/" + img.lstrip("/")
         meals.append({
             "id": f"talabat-{r['branchId']}-{it.get('id')}",
-            "name": iname.strip(),
-            "restaurant": name.strip(),
+            "name": tidy(iname),
+            "restaurant": tidy(name),
             "provider": "TALABAT",
             "priceAed": round(price, 2),
             "deliveryFeeAed": fee,
