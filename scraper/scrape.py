@@ -72,6 +72,18 @@ NEXT_DATA_RE = re.compile(
 AREA_LINK_RE = re.compile(r'/uae/restaurants/(\d+)/([a-z0-9\-()]+)')
 MENU_LINK_RE = re.compile(r'/uae/restaurant/(\d+)/([a-z0-9\-()]+)')
 
+# Menu sections / item names that aren't dishes (drinks, add-ons, cutlery…).
+SKIP_SECTION = re.compile(
+    r"beverage|drinks?\b|\bwater\b|juices?\b|\bsoda|soft drink|add[- ]?ons?\b|\bextras?\b|"
+    r"sauces?\b|\bdips?\b|condiment|cutlery|utensil|napkin|\bbags?\b|packag|tobacco|shisha",
+    re.I,
+)
+SKIP_NAME = re.compile(
+    r"\b(water|pepsi|coca|coke|7 ?up|sprite|fanta|mirinda|mountain dew|red bull|"
+    r"laban|ayran|soft drink|cutlery|ketchup|mayonnaise)\b",
+    re.I,
+)
+
 session = requests.Session()
 session.headers.update(HEADERS)
 stats = {"requests": 0, "errors": []}
@@ -295,13 +307,16 @@ def menu_for(r: dict, debug_once: list) -> list[dict]:
     rating = r["rating"] if r["rating"] is not None else to_float(first(rest, "rate", "rating", "avgRating"))
     fee = r["deliveryFee"] if r["deliveryFee"] is not None else to_float(
         first(rest, "deliveryFee", "deliveryCharges", "deliveryCost"))
-    cuisine = r["cuisine"] or cuisine_of(rest)
+    cuisine = r["cuisine"] or cuisine_of(rest)  # never a menu-section name
 
     meals = []
     for it in items:
         price = to_float(it.get("price"))
         iname = it.get("name")
         if not iname or not price or price <= 0:
+            continue
+        section = str(it.get("originalSection") or it.get("sectionName") or "")
+        if SKIP_SECTION.search(section) or SKIP_NAME.search(iname):
             continue
         img = first(it, "originalImage", "image", "imageUrl", default="") or ""
         if img and not img.startswith("http"):
@@ -314,10 +329,11 @@ def menu_for(r: dict, debug_once: list) -> list[dict]:
             "priceAed": round(price, 2),
             "deliveryFeeAed": fee,
             "rating": rating,
-            "cuisine": cuisine or (it.get("originalSection") or ""),
+            "cuisine": cuisine,
             "imageUrl": img,
             "deepLink": url,
             "canonicalId": f"{norm(name.split(',')[0])}::{norm(iname)}",
+            "rank": len(meals),  # position on the restaurant's menu (popular first)
             "area": r["aid"],
             "city": r["city"],
         })
@@ -359,7 +375,8 @@ def main() -> int:
         log("No meals scraped — keeping the previous data/meals.json untouched.")
         (OUT_DIR / "last-failed-run.json").write_text(json.dumps(meta, indent=2))
         return 1
-    all_meals.sort(key=lambda m: m["id"])
+    # Stable order (small git diffs): by restaurant, then menu position.
+    all_meals.sort(key=lambda m: (m["id"].rsplit("-", 1)[0], m["rank"]))
     (OUT_DIR / "meals.json").write_text(json.dumps(all_meals, ensure_ascii=False, indent=1))
     (OUT_DIR / "meta.json").write_text(json.dumps(meta, indent=2))
     return 0
