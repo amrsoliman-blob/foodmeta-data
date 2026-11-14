@@ -1,27 +1,33 @@
 {
-  "updatedAt": "2026-11-14T13:18:45+00:00",
-  "meals": 2085,
-  "restaurants": 142,
+  "updatedAt": "2026-11-14T13:36:33+00:00",
+  "meals": 2309,
+  "restaurants": 155,
   "areas": [
-    "downtown-burj-khalifa",
-    "jumeirah-lakes-towers-jlt",
-    "dubai-marina",
-    "business-bay",
-    "al-barsha-1",
-    "jumeirah-village-circle-jvc",
-    "al-nahda",
-    "al-karama",
-    "reem-island",
-    "al-raha-beach",
-    "yas-island",
-    "al-khalidiyah",
-    "tourist-club-area-(al-zahiya)",
-    "mohammed-bin-zayed-city",
-    "mussafah",
-    "al-majaz-2"
+    "Dubai: downtown-burj-khalifa",
+    "Dubai: jumeirah-lakes-towers-jlt",
+    "Dubai: dubai-marina",
+    "Dubai: business-bay",
+    "Dubai: al-barsha-1",
+    "Dubai: jumeirah-village-circle-jvc",
+    "Dubai: al-karama",
+    "Dubai: al-nahda-1",
+    "Abu Dhabi: reem-island",
+    "Abu Dhabi: al-raha-beach",
+    "Abu Dhabi: yas-island",
+    "Abu Dhabi: al-khalidiyah",
+    "Abu Dhabi: tourist-club-area-(al-zahiya)",
+    "Abu Dhabi: mohammed-bin-zayed-city",
+    "Abu Dhabi: mussafah",
+    "Sharjah: al-majaz-2",
+    "Sharjah: al-nahda"
   ],
+  "cities": {
+    "Dubai": 1076,
+    "Abu Dhabi": 933,
+    "Sharjah": 300
+  },
   "providers": {
-    "TALABAT": 2085,
+    "TALABAT": 2309,
     "KEETA": 0
   },
   "errors": []
