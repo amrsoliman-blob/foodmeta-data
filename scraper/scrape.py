@@ -53,7 +53,7 @@ DEFAULT_AREAS = [
     "Sharjah|1540/al-nahda",
 ]
 AREAS = [a.strip() for a in os.getenv("AREAS", ",".join(DEFAULT_AREAS)).split(",") if a.strip()]
-MAX_RESTAURANTS = int(os.getenv("MAX_RESTAURANTS_PER_AREA", "10"))
+MAX_RESTAURANTS = int(os.getenv("MAX_RESTAURANTS_PER_AREA", "20"))
 MAX_ITEMS = int(os.getenv("MAX_ITEMS_PER_RESTAURANT", "15"))
 DEBUG = os.getenv("DEBUG") == "1"
 
@@ -228,6 +228,51 @@ def resolve_areas() -> list[tuple[str, str, str]]:
 
 # ---------------------------------------------------------- restaurants ---
 
+# ---------------------------------------------------------------- offers ---
+
+# What the data looks like (field names only + short values), so the app can use new fields.
+SAMPLE: dict = {}
+OFFER_KEYS = ("discountText", "promotionText", "offerText", "promoText", "promotion", "discount",
+              "offer", "offers", "promotions", "discounts", "tags", "badges", "campaigns", "deals")
+OFFER_WORDS = re.compile(r"%|\boff\b|free|deal|buy\s*1|bogo|save|cashback|خصم|مجان", re.I)
+
+
+def sample_of(d) -> dict | str:
+    if isinstance(d, dict):
+        return {str(k): repr(v)[:160] for k, v in list(d.items())[:80]}
+    return repr(d)[:200]
+
+
+def offer_texts(d: dict) -> list[str]:
+    """Restaurant-level offers ("20% off selected items", "Free delivery") from whatever fields exist."""
+    out = []
+    if not isinstance(d, dict):
+        return out
+    for k in OFFER_KEYS:
+        v = d.get(k)
+        for x in (v if isinstance(v, list) else [v]):
+            if isinstance(x, str):
+                t = x
+            elif isinstance(x, dict):
+                t = first(x, "title", "text", "description", "name", "label", "displayText", default="")
+            else:
+                continue
+            if isinstance(t, str) and t.strip() and OFFER_WORDS.search(t):
+                out.append(tidy(t))
+    return list(dict.fromkeys(out))[:3]
+
+
+def eta_minutes(d: dict) -> int | None:
+    v = first(d, "deliveryTime", "avgDeliveryTime", "deliveryTimeText", "eta", "deliveryEta", default=None)
+    if isinstance(v, (int, float)) and 0 < v < 240:
+        return int(v)
+    if isinstance(v, str):
+        nums = [int(n) for n in re.findall(r"\d+", v)][:2]
+        if nums and 0 < nums[0] < 240:
+            return int(sum(nums) / len(nums))
+    return None
+
+
 def restaurants_in_area(aid: str, slug: str, city: str) -> list[dict]:
     html = get(f"{BASE}/uae/restaurants/{aid}/{slug}")
     if not html:
@@ -267,7 +312,11 @@ def restaurants_in_area(aid: str, slug: str, city: str) -> list[dict]:
             "rating": to_float(first(d, "rate", "rating", "avgRating")),
             "deliveryFee": to_float(first(d, "deliveryFee", "deliveryCharges", "deliveryCost")),
             "cuisine": cuisine_of(d),
+            "offers": offer_texts(d),
+            "eta": eta_minutes(d),
         })
+        if d:
+            SAMPLE.setdefault("listing_restaurant", sample_of(d))
     return out
 
 
@@ -314,6 +363,16 @@ def menu_for(r: dict, debug_once: list) -> list[dict]:
     fee = r["deliveryFee"] if r["deliveryFee"] is not None else to_float(
         first(rest, "deliveryFee", "deliveryCharges", "deliveryCost"))
     cuisine = r["cuisine"] or cuisine_of(rest)  # never a menu-section name
+    offers = list(dict.fromkeys((r.get("offers") or []) + offer_texts(rest)))[:3]
+    eta = r.get("eta") or eta_minutes(rest)
+    if items:
+        SAMPLE.setdefault("menu_item", sample_of(items[0]))
+        SAMPLE.setdefault("menu_restaurant", sample_of(rest))
+        for it in items:
+            if any(re.search(r"old|disc|promo|strike|original|before", str(k), re.I) and it.get(k)
+                   for k in it if k not in ("originalSection", "originalImage")):
+                SAMPLE.setdefault("discounted_item", sample_of(it))
+                break
 
     meals = []
     for it in items:
@@ -321,6 +380,14 @@ def menu_for(r: dict, debug_once: list) -> list[dict]:
         iname = it.get("name")
         if not iname or not price or price <= 0:
             continue
+        # A discount shows up either as an old price, or as a lower discounted price.
+        was = to_float(first(it, "oldPrice", "originalPrice", "priceBeforeDiscount", "previousPrice",
+                             "strikePrice", "priceOld"))
+        disc = to_float(first(it, "discountedPrice", "priceAfterDiscount", "promoPrice", "discountPrice"))
+        if disc and 0 < disc < price:
+            was, price = price, disc
+        if not was or was <= price + 0.001:
+            was = None
         section = str(it.get("originalSection") or it.get("sectionName") or "")
         if SKIP_SECTION.search(section) or SKIP_NAME.search(iname):
             continue
@@ -333,6 +400,7 @@ def menu_for(r: dict, debug_once: list) -> list[dict]:
             "restaurant": tidy(name),
             "provider": "TALABAT",
             "priceAed": round(price, 2),
+            "wasAed": round(was, 2) if was else None,
             "deliveryFeeAed": fee,
             "rating": rating,
             "cuisine": cuisine,
@@ -342,6 +410,8 @@ def menu_for(r: dict, debug_once: list) -> list[dict]:
             "rank": len(meals),  # position on the restaurant's menu (popular first)
             "area": r["aid"],
             "city": r["city"],
+            "offers": offers,
+            "etaMin": eta,
         })
         if len(meals) >= MAX_ITEMS:
             break
@@ -461,7 +531,10 @@ def main() -> int:
     except Exception as e:  # never let Deliveroo break the Talabat feed
         log("deliveroo index failed:", e)
         stats["errors"].append(f"deliveroo index: {e}")
+    meta["discountedMeals"] = sum(1 for m in all_meals if m.get("wasAed"))
+    meta["restaurantsWithOffers"] = len({m["restaurant"] for m in all_meals if m.get("offers")})
     (OUT_DIR / "meta.json").write_text(json.dumps(meta, indent=2))
+    (OUT_DIR / "sample.json").write_text(json.dumps(SAMPLE, ensure_ascii=False, indent=1))
     return 0
 
 

@@ -38,7 +38,7 @@ jobs:
         run: |
           git config user.name "foodmeta-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/meals.json data/meta.json data/deliveroo.json 2>/dev/null || git add data/meals.json data/meta.json
+          git add data/meals.json data/meta.json data/deliveroo.json data/sample.json 2>/dev/null || git add data/meals.json data/meta.json
           if git diff --cached --quiet; then
             echo "No data changes"
           else
