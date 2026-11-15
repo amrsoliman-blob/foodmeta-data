@@ -314,6 +314,10 @@ def restaurants_in_area(aid: str, slug: str, city: str) -> list[dict]:
             "cuisine": cuisine_of(d),
             "offers": offer_texts(d),
             "eta": eta_minutes(d),
+            "cover": d.get("heroImage") or "",
+            "logo": d.get("logo") or "",
+            "minOrder": to_float(d.get("minimumOrderAmount")),
+            "ratings": d.get("totalRatings") if isinstance(d.get("totalRatings"), int) else None,
         })
         if d:
             SAMPLE.setdefault("listing_restaurant", sample_of(d))
@@ -364,6 +368,11 @@ def menu_for(r: dict, debug_once: list) -> list[dict]:
         first(rest, "deliveryFee", "deliveryCharges", "deliveryCost"))
     cuisine = r["cuisine"] or cuisine_of(rest)  # never a menu-section name
     offers = list(dict.fromkeys((r.get("offers") or []) + offer_texts(rest)))[:3]
+    cover = r.get("cover") or rest.get("heroImage") or ""
+    logo = r.get("logo") or rest.get("logo") or ""
+    min_order = r.get("minOrder") if r.get("minOrder") is not None else to_float(rest.get("minimumOrderAmount"))
+    ratings = r.get("ratings") if r.get("ratings") is not None else (
+        rest.get("totalRatings") if isinstance(rest.get("totalRatings"), int) else None)
     eta = r.get("eta") or eta_minutes(rest)
     if items:
         SAMPLE.setdefault("menu_item", sample_of(items[0]))
@@ -412,6 +421,10 @@ def menu_for(r: dict, debug_once: list) -> list[dict]:
             "city": r["city"],
             "offers": offers,
             "etaMin": eta,
+            "coverUrl": cover,
+            "logoUrl": logo,
+            "minOrderAed": min_order if min_order else None,
+            "ratingCount": ratings,
         })
         if len(meals) >= MAX_ITEMS:
             break
