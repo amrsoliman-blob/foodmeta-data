@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-15T10:40:08+00:00",
-  "meals": 2152,
-  "restaurants": 149,
+  "updatedAt": "2026-11-15T11:15:38+00:00",
+  "meals": 3275,
+  "restaurants": 228,
   "areas": [
     "Dubai: downtown-burj-khalifa",
     "Dubai: jumeirah-lakes-towers-jlt",
@@ -22,14 +22,18 @@
     "Sharjah: al-nahda"
   ],
   "cities": {
-    "Dubai": 1004,
-    "Abu Dhabi": 880,
-    "Sharjah": 268
+    "Dubai": 1561,
+    "Abu Dhabi": 1355,
+    "Sharjah": 359
   },
   "providers": {
-    "TALABAT": 2152,
+    "TALABAT": 3275,
     "KEETA": 0
   },
-  "errors": [],
-  "deliverooMatches": 78
+  "errors": [
+    "https://www.talabat.com/uae/restaurant/646025/gazebo-al-nahda-sahara-center?aid=1540: HTTP 502"
+  ],
+  "deliverooMatches": 147,
+  "discountedMeals": 1191,
+  "restaurantsWithOffers": 0
 }
