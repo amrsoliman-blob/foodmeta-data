@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-17T03:40:57+00:00",
-  "meals": 3207,
-  "restaurants": 216,
+  "updatedAt": "2026-11-17T13:04:54+00:00",
+  "meals": 3423,
+  "restaurants": 234,
   "areas": [
     "Dubai: downtown-burj-khalifa",
     "Dubai: jumeirah-lakes-towers-jlt",
@@ -22,16 +22,16 @@
     "Sharjah: al-nahda"
   ],
   "cities": {
-    "Dubai": 1510,
-    "Abu Dhabi": 1322,
-    "Sharjah": 375
+    "Dubai": 1584,
+    "Abu Dhabi": 1451,
+    "Sharjah": 388
   },
   "providers": {
-    "TALABAT": 3207,
+    "TALABAT": 3423,
     "KEETA": 0
   },
   "errors": [],
-  "deliverooMatches": 130,
-  "discountedMeals": 1019,
+  "deliverooMatches": 152,
+  "discountedMeals": 1207,
   "restaurantsWithOffers": 0
 }
