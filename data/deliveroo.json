@@ -1,317 +1,235 @@
 {
- "8 BIT|1441": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-manhal/8-bit-restaurant"
+ "Abu Gamal Restaurant|1252": [
+  "https://deliveroo.ae/menu/dubai/healthcare-city/abu-gamal-restaurant"
  ],
- "ALBAIK, Al Majaz 1|1531": [
-  "https://deliveroo.ae/menu/sharjah/al-nasserya/albaik-shawarma-cafeteria"
+ "Ahl Masr|1496": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-manhal/ahl-masr"
  ],
- "ALBAIK|1540": [
-  "https://deliveroo.ae/menu/sharjah/al-nasserya/albaik-shawarma-cafeteria"
+ "Arabet Foul Zaman Restaurant|1441": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-hosn/arabet-foul-zaman-restaurant"
  ],
- "Abu Sayyah Express|1174": [
-  "https://deliveroo.ae/menu/dubai/south-barsha-arjan/abu-sayyah-express-arjan",
-  "https://deliveroo.ae/menu/dubai/falcon-city-of-wonders/abu-sayyah-express"
+ "Asian Bistro|1174": [
+  "https://deliveroo.ae/menu/dubai/al-barsha-2/asian-bistro-barsha",
+  "https://deliveroo.ae/menu/dubai/al-jaddaf/asian-bistro-jaddaf",
+  "https://deliveroo.ae/menu/dubai/dubai-business-bay/asian-bistro-al-wasll"
  ],
- "Akl Zaman, Al Qusais 1|1204": [
-  "https://deliveroo.ae/menu/dubai/al-qusais/akl-zaman"
+ "Asian Bistro|1187": [
+  "https://deliveroo.ae/menu/dubai/al-jaddaf/asian-bistro-jaddaf",
+  "https://deliveroo.ae/menu/dubai/al-barsha-2/asian-bistro-barsha",
+  "https://deliveroo.ae/menu/dubai/dubai-business-bay/asian-bistro-al-wasll"
  ],
- "Akl Zaman|1492": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-manhal/akl-zaman-ad"
- ],
- "Annas and Bhaijan Idli Restaurant|1204": [
-  "https://deliveroo.ae/menu/dubai/dubai-investment-park-2/annas-and-bhaijan-idli-restaurant"
- ],
- "B60 burgers|1531": [
-  "https://deliveroo.ae/menu/sharjah/al-bu-daniq/b60-burgers-abu-shagara",
-  "https://deliveroo.ae/menu/sharjah/muwailih-food/b60-burgers-muwailah"
- ],
- "BKK Station|1258": [
-  "https://deliveroo.ae/menu/dubai/jlt-west/bkk-station-thai-restaurant",
-  "https://deliveroo.ae/menu/dubai/al-barsha-1/bkk-station-thai-restaurant-barsha"
- ],
- "Babati|1252": [
-  "https://deliveroo.ae/menu/dubai/downtown-canal/babati"
- ],
- "Baskin Robbins, Navy Gate|1492": [
-  "https://deliveroo.ae/menu/abu-dhabi/yas-island/baskin-robbins-yas-mall",
-  "https://deliveroo.ae/menu/abu-dhabi/yas-island/baskin-robbins-noya-plaza",
-  "https://deliveroo.ae/menu/abu-dhabi/al-danah/baskin-robbins-yas-island"
- ],
- "Baskin Robbins, Shahama, New Shahama|6816": [
-  "https://deliveroo.ae/menu/abu-dhabi/bawabat-al-sharq/baskin-robbins-mafraq",
-  "https://deliveroo.ae/menu/abu-dhabi/al-shahama/baskin-robbins-alshamam",
-  "https://deliveroo.ae/menu/abu-dhabi/al-zahiyah/baskin-robbins-navy-gate"
- ],
- "Behrouz Biryani|1204": [
-  "https://deliveroo.ae/menu/dubai/al-qusais/behrouz-biryani-nahda",
-  "https://deliveroo.ae/menu/dubai/al-barsha-1/behrouz-biryani-al-barsha",
-  "https://deliveroo.ae/menu/dubai/south-barsha-arjan/behrouz-biryani-sciencepark"
- ],
- "Biryani Aroma|1174": [
-  "https://deliveroo.ae/menu/dubai/dubai-canal-walk/biryani-aroma-business-bay"
- ],
- "Biryani Joy|1310": [
+ "Biryani Joy|1174": [
   "https://deliveroo.ae/menu/dubai/dubai-canal-walk/biryani-joy-business-bay"
  ],
- "Breakfast By Maraheb|1531": [
-  "https://deliveroo.ae/menu/sharjah/muwailih-food/breakfast-by-maraheb-sharjah"
+ "Breakfast By Maraheb|1258": [
+  "https://deliveroo.ae/menu/dubai/al-safa-2/breakfast-by-maraheb-al-safa",
+  "https://deliveroo.ae/menu/dubai/al-rashidiya/breakfast-by-maraheb-nad-al-hamar"
+ ],
+ "Burger King, Al Qusais 1|1204": [
+  "https://deliveroo.ae/menu/dubai/al-safa-1/burger-king-ethihad",
+  "https://deliveroo.ae/menu/dubai/al-qusais/burger-king-qusais",
+  "https://deliveroo.ae/menu/dubai/al-quoz-3/burger-king-belhasaa"
  ],
  "Burgerz|1272": [
   "https://deliveroo.ae/menu/dubai/jumeirah-3/burgerz-jumeirah-2",
   "https://deliveroo.ae/menu/dubai/jumeirah-3/burgerz-jumeirah",
   "https://deliveroo.ae/menu/dubai/al-khawaneej-west/burgerz-khawaneej"
  ],
- "Caliburger, Al Safarrat|6816": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-seef-village/caliburger-village-mall"
+ "Caribou Coffee|1204": [
+  "https://deliveroo.ae/menu/dubai/al-sufouh/caribou-coffee-office-park",
+  "https://deliveroo.ae/menu/dubai/al-quoz-2/caribou-coffee-oasis-centre",
+  "https://deliveroo.ae/menu/dubai/al-quoz-1/caribou-coffee-time-square"
  ],
- "Cheezy Bites|1258": [
-  "https://deliveroo.ae/menu/dubai/karama/cheezy-bites"
+ "Cheese Wheel Pasta|1308": [
+  "https://deliveroo.ae/menu/dubai/jlt-west/cheese-wheel-pasta-jlt",
+  "https://deliveroo.ae/menu/dubai/al-khawaneej-west/cheese-wheel-pasta-alkhawaneej",
+  "https://deliveroo.ae/menu/dubai/outlet-mall/cheese-wheel-pasta-outlet-mall"
  ],
- "Chick N Crunch|1252": [
-  "https://deliveroo.ae/menu/dubai/nadd-al-hamar/chick-n-crunch",
-  "https://deliveroo.ae/menu/dubai/dubai-badaa/chick-n-crunch-jumeirah",
-  "https://deliveroo.ae/menu/dubai/al-khawaneej-west/chick-n-crunch-khawaneej"
+ "Cinnabon|1310": [
+  "https://deliveroo.ae/menu/dubai/jumeirah-1/cinnabon-mercato",
+  "https://deliveroo.ae/menu/dubai/motor-city/cinnabon-foodnation",
+  "https://deliveroo.ae/menu/dubai/mirdif/cinnabon-mrdf"
  ],
- "Chick N Slider|1485": [
-  "https://deliveroo.ae/menu/abu-dhabi/mussafah-community/chick-n-slider-mbz",
-  "https://deliveroo.ae/menu/abu-dhabi/al-shahama/chick-n-slider-shahama",
-  "https://deliveroo.ae/menu/abu-dhabi/new-al-falah/chick-n-slider-al-falah"
+ "Cinnabon|1498": [
+  "https://deliveroo.ae/menu/abu-dhabi/yas-island/cinnabon-yas-island",
+  "https://deliveroo.ae/menu/abu-dhabi/al-maryah-island/cinnabon-galleria-mall",
+  "https://deliveroo.ae/menu/abu-dhabi/al-khubeirah/cinnabon-corniche"
  ],
- "Chicken House|1308": [
-  "https://deliveroo.ae/menu/dubai/jumeirah-village-circle/chicken-house-jvc"
+ "Costa Coffee|1531": [
+  "https://deliveroo.ae/menu/sharjah/al-majaz-3/costa-coffee-riviera-tower",
+  "https://deliveroo.ae/menu/sharjah/al-zahiya-north/costa-coffee-al-jada",
+  "https://deliveroo.ae/menu/sharjah/sharjah-nahda-park/costa-coffee-sahara-centre"
  ],
- "Chipotle|1485": [
-  "https://deliveroo.ae/menu/abu-dhabi/yas-island/chipotle-yas-mall",
-  "https://deliveroo.ae/menu/abu-dhabi/abu-dhabi-polytechnic/chipotle-my-town-center"
+ "Costa Coffee|6816": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-zahiyah/costa-coffee-ramhan-tower",
+  "https://deliveroo.ae/menu/abu-dhabi/al-zahiyah/costa-coffee-aryam-tower",
+  "https://deliveroo.ae/menu/abu-dhabi/al-reem-island/costa-coffee-reem-mall"
  ],
- "D Shawarma|1498": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-maryah-island/shawarma-and-co-dic",
-  "https://deliveroo.ae/menu/abu-dhabi/bawabat-east/shawarma-al-khair-bani-yas",
-  "https://deliveroo.ae/menu/abu-dhabi/al-reem-island/shawarma-and-co-mushrif-abu-dhabi-core"
+ "Crepe & Go|6816": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-shahama/crepe-go-abu-dhabi"
  ],
- "Dip'd|1272": [
-  "https://deliveroo.ae/menu/dubai/downtown-dubai-mall/dip-dash-downtown",
-  "https://deliveroo.ae/menu/dubai/jumeirah-2/dips-cafe",
-  "https://deliveroo.ae/menu/dubai/jlt/dip-the-steak"
+ "Dunkin, Al Bahya|6816": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-bahyah/dunkin-deerfields",
+  "https://deliveroo.ae/menu/abu-dhabi/al-safeer/dunkin-khalifa-city",
+  "https://deliveroo.ae/menu/abu-dhabi/al-rayhan-north/dunkin-mushrif-mall"
  ],
- "Dip'd|1498": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-shamkha/dip-n-melt"
+ "Dunkin, Al Nahda 1|1204": [
+  "https://deliveroo.ae/menu/dubai/al-qusais/dunkin-al-qusais",
+  "https://deliveroo.ae/menu/dubai/al-quoz-3/dunkin-al-quoz",
+  "https://deliveroo.ae/menu/dubai/karama/dunkin-al-seef-street"
  ],
- "Ebi Japanese|1174": [
-  "https://deliveroo.ae/menu/dubai/silicon-oasis/ebi-japanese-dso"
+ "ETCI UMUT RESTAURANT|1187": [
+  "https://deliveroo.ae/menu/dubai/business-bay-stables/etci-umut-restaurant"
  ],
  "Egg Bun|1308": [
   "https://deliveroo.ae/menu/dubai/jlt-west/egg-bun-hpk-jlt",
   "https://deliveroo.ae/menu/dubai/internet-city-2/egg-bun-business-central-tower",
   "https://deliveroo.ae/menu/dubai/south-barsha-arjan/egg-bun-breakfast-buns-eggs-and-brunch-motor-city"
  ],
- "Else Burger|1492": [
-  "https://deliveroo.ae/menu/abu-dhabi/khalifa-forsan/else-burger-khalifa"
- ],
  "Fatayr Wamahashaa Almudhish|1485": [
   "https://deliveroo.ae/menu/abu-dhabi/khalifa-city/fatayr-wamahashaa-almudhish"
  ],
- "Forty Fruity Go|1492": [
-  "https://deliveroo.ae/menu/abu-dhabi/bawabat-east/forty-fruity-go-baniyas",
-  "https://deliveroo.ae/menu/abu-dhabi/al-safeer/forty-fruity-go-khalifa",
-  "https://deliveroo.ae/menu/abu-dhabi/al-bateen/forty-fruity-go-khalidiya"
+ "Fatayr Wamahashaa Almudhish|1498": [
+  "https://deliveroo.ae/menu/abu-dhabi/khalifa-city/fatayr-wamahashaa-almudhish"
  ],
- "Forty Fruity Go|6816": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-safeer/forty-fruity-go-khalifa",
-  "https://deliveroo.ae/menu/abu-dhabi/al-bateen/forty-fruity-go-khalidiya",
-  "https://deliveroo.ae/menu/abu-dhabi/riyad-1/forty-fruity-go-al-riyadh"
+ "Fern Al Raihan|1308": [
+  "https://deliveroo.ae/menu/dubai/jlt-west/fern-al-raihan-jumeirah-lake-towers-jlt",
+  "https://deliveroo.ae/menu/dubai/motor-city/fern-al-raihan-motor-city",
+  "https://deliveroo.ae/menu/dubai/dubai-satwa/fern-al-raihan-al-satwa"
  ],
- "Gorilla Burger|1272": [
-  "https://deliveroo.ae/menu/dubai/internet-city-2/gorilla-burger-dubai-marina",
-  "https://deliveroo.ae/menu/dubai/dubai-business-bay/gorilla-burger-business-bay",
-  "https://deliveroo.ae/menu/dubai/south-barsha-arjan/gorilla-burger-arjan"
+ "Finger Sushi|1174": [
+  "https://deliveroo.ae/menu/dubai/south-barsha-arjan/finger-sushi-arjan",
+  "https://deliveroo.ae/menu/dubai/silicon-oasis/finger-sushi-dso"
  ],
- "Hammer Burgers|1310": [
-  "https://deliveroo.ae/menu/dubai/jumeirah-village-circle/hammer-burger-restaurant-llc",
-  "https://deliveroo.ae/menu/dubai/festival-city/hammer-burgers-dubai-festival-city"
+ "FitFuel - Healthy & Gym Food|1308": [
+  "https://deliveroo.ae/menu/dubai/jlt/fitfuel-jlt",
+  "https://deliveroo.ae/menu/dubai/south-barsha-arjan/fitfuel-arjan",
+  "https://deliveroo.ae/menu/dubai/silicon-oasis/fitfuel-dso"
  ],
- "Hardee's, Abu Hail|1204": [
-  "https://deliveroo.ae/menu/dubai/al-warqaa/hardees-warqa-a-14822",
-  "https://deliveroo.ae/menu/dubai/al-rashidiya/hardees-rashidiya-market",
-  "https://deliveroo.ae/menu/dubai/al-qusais-3/hardees-quasis-14716"
+ "French Bakery|1187": [
+  "https://deliveroo.ae/menu/dubai/al-sufouh/french-bakery-knowledge-village",
+  "https://deliveroo.ae/menu/dubai/century-mall/french-bakery-al-mamzar-dubai",
+  "https://deliveroo.ae/menu/dubai/the-greens/french-bakery-onyx"
  ],
- "Hardee's, Al Khalidiyah|1441": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-manhal/hardees-abs",
-  "https://deliveroo.ae/menu/abu-dhabi/al-danah/hardees-hamdan",
-  "https://deliveroo.ae/menu/abu-dhabi/al-zahiyah/hardees-knowledge-village"
+ "Fuel Up by Kcal, JLT|1308": [
+  "https://deliveroo.ae/menu/dubai/jlt-west/fuel-up-by-kcal-vitamin-mineral-and-supplements-jumeirah-lake-towers",
+  "https://deliveroo.ae/menu/dubai/motor-city/fuel-up-by-kcal-vitamin-mineral-and-supplements-motor-city",
+  "https://deliveroo.ae/menu/dubai/al-quoz-1/fuel-up-by-kcal-vitamin-mineral-and-supplements-al-quoz"
+ ],
+ "Furn Beaino|1252": [
+  "https://deliveroo.ae/menu/dubai/al-barsha-3/furn-beaino-hessa-st"
  ],
  "Hardee's, Al Majaz 1|1531": [
   "https://deliveroo.ae/menu/sharjah/al-samnan/hardees-samnan2",
   "https://deliveroo.ae/menu/sharjah/al-rahmaniya-north/hardees-rahmaniya",
   "https://deliveroo.ae/menu/sharjah/al-nud/hardees-buhaira"
  ],
- "Hardee's, Al Nahda|1540": [
-  "https://deliveroo.ae/menu/sharjah/sharjah-nahda-park/hardees-dubai-sharjah-road-drive-thru-al-nahda",
-  "https://deliveroo.ae/menu/sharjah/al-samnan/hardees-samnan2",
-  "https://deliveroo.ae/menu/sharjah/al-rahmaniya-north/hardees-rahmaniya"
- ],
- "Hardee's, Bur Dubai|1187": [
-  "https://deliveroo.ae/menu/dubai/karama/hardees-karama",
-  "https://deliveroo.ae/menu/dubai/al-warqaa/hardees-warqa-a-14822",
-  "https://deliveroo.ae/menu/dubai/al-rashidiya/hardees-rashidiya-market"
- ],
- "Hardee's, Jumeirah Lakes Towers|1308": [
-  "https://deliveroo.ae/menu/dubai/jumeirah-1/hardees-jmh",
-  "https://deliveroo.ae/menu/dubai/jlt-west/hardees-jlt",
-  "https://deliveroo.ae/menu/dubai/jumeirah-village-circle/hardees-uae-test-site"
+ "Hardee's, Jumeirah Lakes Towers|1272": [
+  "https://deliveroo.ae/menu/dubai/dubai-creek/hardees-riqqa",
+  "https://deliveroo.ae/menu/dubai/dubai-business-bay/hardees-business-bay",
+  "https://deliveroo.ae/menu/dubai/dubai-south/hardees-dubai-south-14960-marketplace"
  ],
  "Hardee's, Mussafah Industrial city|1485": [
   "https://deliveroo.ae/menu/abu-dhabi/abu-dhabi-polytechnic/hardees-mussafah-shabiya",
   "https://deliveroo.ae/menu/abu-dhabi/shakhbout-city/hardees-khalifa-b",
   "https://deliveroo.ae/menu/abu-dhabi/al-manhal/hardees-abs"
  ],
- "Hardee's, Shahama|1498": [
-  "https://deliveroo.ae/menu/abu-dhabi/shakhbout-city/hardees-khalifa-b",
-  "https://deliveroo.ae/menu/abu-dhabi/al-manhal/hardees-abs",
-  "https://deliveroo.ae/menu/abu-dhabi/al-danah/hardees-hamdan"
- ],
- "Hardee's, Tourist Club Area|1492": [
-  "https://deliveroo.ae/menu/abu-dhabi/shakhbout-city/hardees-khalifa-b",
-  "https://deliveroo.ae/menu/abu-dhabi/al-manhal/hardees-abs",
-  "https://deliveroo.ae/menu/abu-dhabi/al-danah/hardees-hamdan"
- ],
- "Hardee`s, , Business Bay|1258": [
-  "https://deliveroo.ae/menu/dubai/umm-suqeim-1/hardees-ums",
-  "https://deliveroo.ae/menu/dubai/motor-city/hardees-sc",
-  "https://deliveroo.ae/menu/dubai/knowledge-village/hardees-dm"
- ],
  "Hardee`s, Al Barsha 1|1174": [
   "https://deliveroo.ae/menu/dubai/al-quoz-3/hardees-barsha-enoc",
   "https://deliveroo.ae/menu/dubai/south-barsha-arjan/hardees-test-uae",
   "https://deliveroo.ae/menu/dubai/al-warqaa/hardees-warqa-a-14822"
- ],
- "Hardee`s, Jumeirah Village Circle - JVC|1310": [
-  "https://deliveroo.ae/menu/dubai/jumeirah-village-circle/hardees-jvc-14974-marketplace",
-  "https://deliveroo.ae/menu/dubai/jumeirah-village-circle/hardees-uae-test-site",
-  "https://deliveroo.ae/menu/dubai/knowledge-village/hardees-dm"
  ],
  "Hardee’s, Mohammed Bin Zayed City|1484": [
   "https://deliveroo.ae/menu/abu-dhabi/shakhbout-city/hardees-khalifa-b",
   "https://deliveroo.ae/menu/abu-dhabi/khalifa-forsan/hardees-khalifa-city",
   "https://deliveroo.ae/menu/abu-dhabi/masdar-city/hardees-city-center-masdar"
  ],
- "Healthy Balance Kitchen|1258": [
-  "https://deliveroo.ae/menu/dubai/south-barsha-arjan/healthy-balance-kitchen0",
-  "https://deliveroo.ae/menu/dubai/al-khawaneej-west/healthy-balance-kitchen-khawaneej",
-  "https://deliveroo.ae/menu/dubai/nadd-al-hamar/healthy-balance-kitchen-nad-al-hamar"
- ],
- "Healthy Balance Kitchen|1308": [
-  "https://deliveroo.ae/menu/dubai/south-barsha-arjan/healthy-balance-kitchen0",
-  "https://deliveroo.ae/menu/dubai/al-khawaneej-west/healthy-balance-kitchen-khawaneej",
-  "https://deliveroo.ae/menu/dubai/nadd-al-hamar/healthy-balance-kitchen-nad-al-hamar"
- ],
- "Healthy Balance Kitchen|6816": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-shahama/healthy-balance-kitchen-al-shahama",
-  "https://deliveroo.ae/menu/abu-dhabi/al-etihad/healthy-balance-kitchen-al-mushrif",
-  "https://deliveroo.ae/menu/abu-dhabi/khalifa-city/healthy-balance-kitchen-khalifa"
- ],
- "Healthy Fit|1204": [
-  "https://deliveroo.ae/menu/dubai/al-rashidiya/healthy-fit-nadd-al-hamar"
- ],
- "Healthy Fix|1531": [
-  "https://deliveroo.ae/menu/sharjah/al-majaz/healthy-fix-sharjah",
-  "https://deliveroo.ae/menu/sharjah/muwailih-food/healthy-fix-sharjah-university-city"
+ "Healthy Way Restaurant|1492": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-zafranah/healthy-way-muroor"
  ],
  "House Of Tea Cafeteria|1485": [
   "https://deliveroo.ae/menu/abu-dhabi/mussafah-community/house-of-tea-cafeteria-mussafah",
   "https://deliveroo.ae/menu/abu-dhabi/mohammed-bin-zayed-city/house-of-tea-cafeteria-mbz-city",
   "https://deliveroo.ae/menu/abu-dhabi/bawabat-east/house-of-tea-cafeteria-baniyas-street"
  ],
- "India Palace Restaurant, Al Garhoud|1258": [
-  "https://deliveroo.ae/menu/dubai/downtown-dubai-mall/india-palace-restaurant-dubai-mall",
-  "https://deliveroo.ae/menu/dubai/jbr/india-palace-restaurant-jbr",
-  "https://deliveroo.ae/menu/dubai/jbr/india-palace-restaurant-jbr-marketplace"
+ "IHOP|1308": [
+  "https://deliveroo.ae/menu/dubai/festival-city/ihop-festival-city",
+  "https://deliveroo.ae/menu/dubai/al-barsha-1/ihop-al-barsha"
  ],
- "Iran Zamin|1308": [
-  "https://deliveroo.ae/menu/dubai/marina/iran-zamin",
-  "https://deliveroo.ae/menu/dubai/downtown-dubai-mall/iran-zamin-dubai-mall",
-  "https://deliveroo.ae/menu/dubai/downtown-dubai-mall/iran-zamin-restaurant-and-cafe"
+ "Indi Biryani|1484": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-nahyan/indi-biryani-najda",
+  "https://deliveroo.ae/menu/abu-dhabi/al-bandar/indi-biryani-bandar"
  ],
- "Istanbul Saray|1258": [
-  "https://deliveroo.ae/menu/dubai/dubai-canal-walk/istanbul-saray-business-bay"
+ "Indi Biryani|1492": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-nahyan/indi-biryani-najda",
+  "https://deliveroo.ae/menu/abu-dhabi/al-bandar/indi-biryani-bandar"
  ],
- "JJ Chicken|1310": [
-  "https://deliveroo.ae/menu/dubai/world-trade-center/jj-chicken-difc",
-  "https://deliveroo.ae/menu/dubai/mirdif/jj-chicken-mirdif",
-  "https://deliveroo.ae/menu/dubai/umm-suqeim-1/jj-chicken-umm-suqeim"
+ "Juice Express|1252": [
+  "https://deliveroo.ae/menu/dubai/dubai-canal-walk/juice-express-business-bay"
  ],
- "Just Burger, MBZ|1484": [
-  "https://deliveroo.ae/menu/abu-dhabi/mussafah-community/just-burger-mohammed-bin-zayed",
-  "https://deliveroo.ae/menu/abu-dhabi/khalifa-city/just-burger-khalifa-city",
-  "https://deliveroo.ae/menu/abu-dhabi/al-shahama/just-burger-shahamah"
- ],
- "Just Burger, Shahama|6816": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-shahama/just-burger-shahamah",
-  "https://deliveroo.ae/menu/abu-dhabi/new-al-falah/just-burger-al-falah2",
-  "https://deliveroo.ae/menu/abu-dhabi/al-etihad/just-burger-airport-road"
- ],
- "Just Fresh Juice, Shahama|6816": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-manhal/just-fresh-juice-khalidiya",
-  "https://deliveroo.ae/menu/abu-dhabi/al-nahyan/just-fresh-juice-defense-road",
-  "https://deliveroo.ae/menu/abu-dhabi/bawabat-east/just-fresh-juice-baniyas-east"
- ],
- "KFC|1252": [
-  "https://deliveroo.ae/menu/dubai/dubai-business-bay/kfc-business-bay",
-  "https://deliveroo.ae/menu/dubai/dubai-business-bay/kfc-ghalila-mall-12194-marketplace",
-  "https://deliveroo.ae/menu/dubai/dubai-business-bay/kfc-al-samhah-12178-marketplace"
- ],
- "KFC|1258": [
-  "https://deliveroo.ae/menu/dubai/downtown-canal/kfc-bay-square-12145-marketplace",
-  "https://deliveroo.ae/menu/dubai/remraam/kfc-remram",
-  "https://deliveroo.ae/menu/dubai/mirdif/kfc-mirdif"
- ],
- "KFC|1441": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-zafranah/kfc-muroor",
-  "https://deliveroo.ae/menu/abu-dhabi/al-khubeirah/kfc-khalidya",
-  "https://deliveroo.ae/menu/abu-dhabi/al-shamkha/kfc-shamkha-new"
- ],
- "KFC|1492": [
-  "https://deliveroo.ae/menu/abu-dhabi/saadiyat/kfc-saadiyat-island-12188-marketplace",
-  "https://deliveroo.ae/menu/abu-dhabi/mussafah-industrial/kfc-mussafah",
-  "https://deliveroo.ae/menu/abu-dhabi/bawabat-east/kfc-baniyas"
+ "Julith Coffee|1531": [
+  "https://deliveroo.ae/menu/sharjah/al-zahiya-south/julith-coffee-thara"
  ],
  "KFC|1531": [
   "https://deliveroo.ae/menu/sharjah/al-majaz/kfc-al-wahda-id-12709",
   "https://deliveroo.ae/menu/sharjah/al-abar/kfc-halwan",
   "https://deliveroo.ae/menu/sharjah/al-rahmaniya-north/kfc-enoc-rahmanaya"
  ],
- "Kcal, Reem Island|1492": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-reem-island/kcal-khalifa-park",
-  "https://deliveroo.ae/menu/abu-dhabi/al-nahyan/kcal-abu-dhabi",
-  "https://deliveroo.ae/menu/abu-dhabi/raha-creek/kcal-the-original-healthy-restaurant-khalifa-city"
+ "KUBZA BAKER|6816": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-shahama/kubza-baker-shahama",
+  "https://deliveroo.ae/menu/abu-dhabi/new-al-falah/kubza-baker-al-falah",
+  "https://deliveroo.ae/menu/abu-dhabi/al-wahdah/kubza-baker-al-nahyan"
  ],
- "Krush Burger, Al Khawaneej 1|1187": [
-  "https://deliveroo.ae/menu/dubai/al-aweer/krush-burger-al-aweer",
-  "https://deliveroo.ae/menu/dubai/meydan/krush-burger-restaurant-al-ain-road",
-  "https://deliveroo.ae/menu/dubai/difc/krush-burger"
+ "Kompot|1308": [
+  "https://deliveroo.ae/menu/dubai/south-barsha-arjan/kompot",
+  "https://deliveroo.ae/menu/dubai/marina/kompot-marina",
+  "https://deliveroo.ae/menu/dubai/dubai-business-bay/kompot-business-bay"
  ],
- "Laffah|1204": [
-  "https://deliveroo.ae/menu/dubai/hor-al-anz-east/laffah-restaurant-abu-hail",
-  "https://deliveroo.ae/menu/dubai/dubai-satwa/laffah-restaurant-al-satwa",
-  "https://deliveroo.ae/menu/dubai/al-warqaa/laffah-restaurant-al-warqa"
+ "Lebanese Restaurant & Grills|1485": [
+  "https://deliveroo.ae/menu/abu-dhabi/china-mall/lebanese-grill-musaffah"
  ],
  "Lebanese Restaurant & Grills|1498": [
   "https://deliveroo.ae/menu/abu-dhabi/china-mall/lebanese-grill-musaffah"
  ],
- "Maestro Pizza|1310": [
-  "https://deliveroo.ae/menu/dubai/jumeirah-village-circle/maestro-pizza-jvc",
-  "https://deliveroo.ae/menu/dubai/jebel-ali-village/maestro-pizza-core",
-  "https://deliveroo.ae/menu/dubai/silicon-oasis/maestro-pizza-dso"
+ "Mama Noura|1174": [
+  "https://deliveroo.ae/menu/dubai/dubai-canal-walk/mama-noura-business-bay"
  ],
- "Maestro Pizza|1484": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-safeer/maestro-pizza-khalifa-city",
-  "https://deliveroo.ae/menu/abu-dhabi/al-zahraa/maestro-pizza-muroor",
-  "https://deliveroo.ae/menu/abu-dhabi/al-manhal/maestro-pizza-khalidiya"
+ "Mamaesh, Business bay|1252": [
+  "https://deliveroo.ae/menu/dubai/dubai-business-bay/mamaesh-business-bay",
+  "https://deliveroo.ae/menu/dubai/jlt-west/mamaesh-jlt",
+  "https://deliveroo.ae/menu/dubai/springs-1-and-2/mamaesh-meadows-village"
+ ],
+ "Mamaesh|1272": [
+  "https://deliveroo.ae/menu/dubai/dubai-business-bay/mamaesh-business-bay",
+  "https://deliveroo.ae/menu/dubai/dubai-badaa/mamaesh-al-badaa",
+  "https://deliveroo.ae/menu/dubai/jlt-west/mamaesh-jlt"
+ ],
+ "Manakeesh Baladna|1484": [
+  "https://deliveroo.ae/menu/abu-dhabi/mussafah-community/manakeesh-baladna-musaffah"
+ ],
+ "Mandi Gourmet Restaurant|1272": [
+  "https://deliveroo.ae/menu/dubai/silicon-oasis/mandi-gourmet-restaurant-dubai-silicon-oasis",
+  "https://deliveroo.ae/menu/dubai/jlt/mandi-gourmet-restaurant-jlt",
+  "https://deliveroo.ae/menu/dubai/jafilia/mandi-gourmet-al-hudaiba"
+ ],
+ "Manoushe Street, Al Majaz 3|1531": [
+  "https://deliveroo.ae/menu/sharjah/al-majaz-3/manoushe-street-store-majaz",
+  "https://deliveroo.ae/menu/sharjah/al-majaz-3/manoushe-street-al-majaz"
+ ],
+ "Manoushe Street, Downtown Burj Khalifa|1252": [
+  "https://deliveroo.ae/menu/dubai/dubai-international-city/manoushe-street-warsan",
+  "https://deliveroo.ae/menu/dubai/motor-city/manoushe-street-burj-views",
+  "https://deliveroo.ae/menu/dubai/jlt-west/manoushe-street-store-jlt"
  ],
  "McDonald's, ADNOC Khalifa City North, Masdar City|1498": [
   "https://deliveroo.ae/menu/abu-dhabi/mazyad-mall/mcdonalds-yas-mall",
   "https://deliveroo.ae/menu/abu-dhabi/al-reem-island/mcdonalds-al-reem-island",
   "https://deliveroo.ae/menu/abu-dhabi/mazyad-mall/mcdonalds-mazyadmall"
+ ],
+ "McDonald's, Adnoc Al Bateen|1441": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-zahraa/mcdonalds-mushriff-mall",
+  "https://deliveroo.ae/menu/abu-dhabi/al-danah/mcdonalds-mariah-cinema",
+  "https://deliveroo.ae/menu/abu-dhabi/al-bateen/mcdonalds-al-bateen"
  ],
  "McDonald's, Adnoc Bahya|6816": [
   "https://deliveroo.ae/menu/abu-dhabi/al-zahraa/mcdonalds-mushriff-mall",
@@ -323,10 +241,10 @@
   "https://deliveroo.ae/menu/abu-dhabi/al-danah/mcdonalds-mariah-cinema",
   "https://deliveroo.ae/menu/abu-dhabi/al-bateen/mcdonalds-al-bateen"
  ],
- "McDonald's, Adnoc Mushriff|1496": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-zahraa/mcdonalds-mushriff-mall",
-  "https://deliveroo.ae/menu/abu-dhabi/al-danah/mcdonalds-mariah-cinema",
-  "https://deliveroo.ae/menu/abu-dhabi/al-bateen/mcdonalds-al-bateen"
+ "McDonald's, Adnoc Mushriff|1492": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-reem-island/mcdonalds-al-reem-island",
+  "https://deliveroo.ae/menu/abu-dhabi/mazyad-mall/mcdonalds-mazyadmall",
+  "https://deliveroo.ae/menu/abu-dhabi/mazyad-mall/mcdonalds-yas-mall"
  ],
  "McDonald's, Adnoc Sahara|1540": [
   "https://deliveroo.ae/menu/sharjah/sharjah-nahda-park/mcdonalds-al-ittihad-road",
@@ -343,32 +261,32 @@
   "https://deliveroo.ae/menu/dubai/al-barsha-1/mcdonalds-al-barsha-1",
   "https://deliveroo.ae/menu/dubai/south-barsha-arjan/mcdonalds-my-city-centre-al-barsha"
  ],
- "McDonald's, Al Falah Street (Al Dafrah)|1492": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-reem-island/mcdonalds-al-reem-island",
-  "https://deliveroo.ae/menu/abu-dhabi/mazyad-mall/mcdonalds-mazyadmall",
-  "https://deliveroo.ae/menu/abu-dhabi/mazyad-mall/mcdonalds-yas-mall"
- ],
  "McDonald's, Al Karama (Spinneys)|1187": [
   "https://deliveroo.ae/menu/dubai/karama/mcdonalds-souk-al-seef",
   "https://deliveroo.ae/menu/dubai/karama/mcdonalds-souk-al-kabeer",
   "https://deliveroo.ae/menu/dubai/karama/mcdonalds-toufan"
  ],
- "McDonald's, Al Khalidiyah (Khalidiyah Street)|1441": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-zahraa/mcdonalds-mushriff-mall",
-  "https://deliveroo.ae/menu/abu-dhabi/al-danah/mcdonalds-mariah-cinema",
-  "https://deliveroo.ae/menu/abu-dhabi/al-bateen/mcdonalds-al-bateen"
+ "McDonald's, Al Khalidiyah (Khalidiyah Street)|1492": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-reem-island/mcdonalds-al-reem-island",
+  "https://deliveroo.ae/menu/abu-dhabi/mazyad-mall/mcdonalds-mazyadmall",
+  "https://deliveroo.ae/menu/abu-dhabi/mazyad-mall/mcdonalds-yas-mall"
  ],
  "McDonald's, Al Wasl|1258": [
   "https://deliveroo.ae/menu/dubai/karama/mcdonalds-toufan",
   "https://deliveroo.ae/menu/dubai/jumeirah-1/mcdonalds-jumeirahbeach",
   "https://deliveroo.ae/menu/dubai/zabeel/mcdonalds-dubai-mall-2"
  ],
+ "McDonald's, Dubai Sport City|1310": [
+  "https://deliveroo.ae/menu/dubai/jumeirah-village-circle/mcdonalds-hessa-street",
+  "https://deliveroo.ae/menu/dubai/jumeirah-village-circle/mcdonalds-circle-mall",
+  "https://deliveroo.ae/menu/dubai/jumeirah-1/mcdonalds-jumeirahbeach"
+ ],
  "McDonald's, ENOC 1039 Dubai Production City|1310": [
   "https://deliveroo.ae/menu/dubai/jumeirah-village-circle/mcdonalds-hessa-street",
   "https://deliveroo.ae/menu/dubai/jumeirah-village-circle/mcdonalds-circle-mall",
   "https://deliveroo.ae/menu/dubai/jumeirah-1/mcdonalds-jumeirahbeach"
  ],
- "McDonald's, Enoc 1608 Al Quds street|1204": [
+ "McDonald's, Enoc al Nahda|1204": [
   "https://deliveroo.ae/menu/dubai/hor-al-anz-east/mcdonalds-al-nahda",
   "https://deliveroo.ae/menu/dubai/dubai-creek/mcdonalds-al-qussais",
   "https://deliveroo.ae/menu/dubai/al-wasl/mcdonalds-box-park"
@@ -388,17 +306,7 @@
   "https://deliveroo.ae/menu/sharjah/al-rahmaniya-south/mcdonalds-rahmaniya-mall",
   "https://deliveroo.ae/menu/sharjah/al-ghubaiba/mcdonalds-oasis-mall"
  ],
- "McDonald's, Media City|1308": [
-  "https://deliveroo.ae/menu/dubai/jumeirah-1/mcdonalds-jumeirahbeach",
-  "https://deliveroo.ae/menu/dubai/sheikh-zayed/mcdonalds-blue-tower",
-  "https://deliveroo.ae/menu/dubai/jumeirah-village-circle/mcdonalds-hessa-street"
- ],
  "McDonald's, Mohammed Bin Zayed City 1|1484": [
-  "https://deliveroo.ae/menu/abu-dhabi/masdar-city/mcdonalds-masdar-city",
-  "https://deliveroo.ae/menu/abu-dhabi/shakhbout-city/mcdonalds-adnoc-khalifa-city-b",
-  "https://deliveroo.ae/menu/abu-dhabi/al-safeer/mcdonalds-adnoc-khalifa-city"
- ],
- "McDonald’s, Mohammed Bin Zayed City 2|1484": [
   "https://deliveroo.ae/menu/abu-dhabi/masdar-city/mcdonalds-masdar-city",
   "https://deliveroo.ae/menu/abu-dhabi/shakhbout-city/mcdonalds-adnoc-khalifa-city-b",
   "https://deliveroo.ae/menu/abu-dhabi/al-safeer/mcdonalds-adnoc-khalifa-city"
@@ -408,243 +316,248 @@
   "https://deliveroo.ae/menu/dubai/jumeirah-1/mcdonalds-jumeirahbeach",
   "https://deliveroo.ae/menu/dubai/zabeel/mcdonalds-dubai-mall-2"
  ],
- "Mcdonald's, Al Khan Street|1531": [
-  "https://deliveroo.ae/menu/sharjah/al-jawaher/mcdonalds-muweilah",
-  "https://deliveroo.ae/menu/sharjah/al-rahmaniya-south/mcdonalds-rahmaniya-mall",
-  "https://deliveroo.ae/menu/sharjah/al-ghubaiba/mcdonalds-oasis-mall"
+ "OXLO|1540": [
+  "https://deliveroo.ae/menu/sharjah/al-zahiya-south/oxlo-specialty-coffee"
  ],
- "Mozon Broast|1187": [
-  "https://deliveroo.ae/menu/dubai/al-nahda-2/mozon-broast",
-  "https://deliveroo.ae/menu/dubai/karama/mozon-broast-karama"
- ],
- "Mr. Brisket|1187": [
-  "https://deliveroo.ae/menu/dubai/wadi-al-amardi-1/mr-brisket-last-exit-al-khawaneej",
-  "https://deliveroo.ae/menu/dubai/motor-city/mr-brisket-palm",
-  "https://deliveroo.ae/menu/dubai/jumeirah-3/mr-brisket-jmh"
- ],
- "Oakberry Acai, Al Wasl|1258": [
+ "Oakberry Acai, Al Wasl|1187": [
   "https://deliveroo.ae/menu/dubai/outlet-mall/oakberry-acai-al-ruwayyah",
   "https://deliveroo.ae/menu/dubai/nad-al-sheba-2/oakberry-acai-avenue-mall",
   "https://deliveroo.ae/menu/dubai/al-khawaneej-east/oakberry-acai-al-khawaneej"
  ],
- "PAK SHANWARI KABAB|1492": [
+ "Operation Falafel, Al Danah|1496": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-dhafrah/operation-falafel-al-nahyan",
+  "https://deliveroo.ae/menu/abu-dhabi/al-safeer/operation-falafel-khalifa-city-ad7",
+  "https://deliveroo.ae/menu/abu-dhabi/al-bateen/operation-falafel-abu-dhabi-al-bateen"
+ ],
+ "Operation Falafel, Jumeirah Beach Residence|1308": [
+  "https://deliveroo.ae/menu/dubai/downtown-canal/operation-falafel-2",
+  "https://deliveroo.ae/menu/dubai/jbr/operation-falafel-jbr",
+  "https://deliveroo.ae/menu/dubai/impz/operation-falafel-sc"
+ ],
+ "PAK SHANWARI KABAB|1496": [
   "https://deliveroo.ae/menu/abu-dhabi/al-danah/pak-shanwari-kabab-restaurant-balurouq"
  ],
- "PINOY ZONE RESTAURANT|1496": [
+ "PINOY ZONE RESTAURANT|1492": [
   "https://deliveroo.ae/menu/abu-dhabi/al-zahiyah/pinoy-zone-restaurant",
   "https://deliveroo.ae/menu/abu-dhabi/al-danah/pinoy-zone-restaurant-electra-street",
   "https://deliveroo.ae/menu/abu-dhabi/al-danah/pinoy-zone-restaurant-al-hosn"
  ],
- "Papa Johns Pizza, Deerfields|6816": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-reem-island/papa-johns-pizza-reem-mall",
-  "https://deliveroo.ae/menu/abu-dhabi/al-rayhan-north/papa-johns-pizza-mushrif-mall",
-  "https://deliveroo.ae/menu/abu-dhabi/al-zahiyah/papa-johns-pizza-abu-dhabi-mall"
+ "PUFF|1496": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-etihad/puff",
+  "https://deliveroo.ae/menu/abu-dhabi/al-seef-village/puff-bakehouse-al-seef-mall",
+  "https://deliveroo.ae/menu/abu-dhabi/marina-village/puff-marina-mall"
  ],
- "Paradise Biryani|1204": [
-  "https://deliveroo.ae/menu/dubai/healthcare-city/paradise-biryani-karama"
+ "Pak Afridi Restaurant|1310": [
+  "https://deliveroo.ae/menu/dubai/al-quoz-1/pak-afridi-restaurant"
  ],
- "Pasta Street|6816": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-maqta/pasta-street-rabdan",
-  "https://deliveroo.ae/menu/abu-dhabi/al-maqta/pasta-street-maqtaa",
-  "https://deliveroo.ae/menu/abu-dhabi/al-shahama/pasta-street-new-shahama"
- ],
- "Pickl|1308": [
-  "https://deliveroo.ae/menu/dubai/jlt/pickl",
-  "https://deliveroo.ae/menu/dubai/jbr/pickl-jbr",
-  "https://deliveroo.ae/menu/dubai/city-walk/pickl-dt"
+ "Paratta Station, Shahama|6816": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-shahama/paratta-station-al-shahama",
+  "https://deliveroo.ae/menu/abu-dhabi/al-etihad/paratta-station-al-mushrif"
  ],
  "Pickl|1498": [
   "https://deliveroo.ae/menu/abu-dhabi/saadiyat/pickl-mamsha",
   "https://deliveroo.ae/menu/abu-dhabi/al-danah/pickl-wtc",
   "https://deliveroo.ae/menu/abu-dhabi/khalifa-city/pickl-khalifa-city"
  ],
- "Pinzatta - Better Than Pizza|1308": [
-  "https://deliveroo.ae/menu/dubai/jumeirah-village-circle/pinzatta-jvc",
+ "Pinzatta - Better Than Pizza|1258": [
   "https://deliveroo.ae/menu/dubai/silicon-oasis/pinzatta-dso",
-  "https://deliveroo.ae/menu/dubai/marina/pinzatta-marina"
- ],
- "Pizza Di Rocco|1308": [
-  "https://deliveroo.ae/menu/dubai/jlt-west/pizza-di-rocco-jlt",
-  "https://deliveroo.ae/menu/dubai/silicon-oasis/pizza-di-rocco-dso",
-  "https://deliveroo.ae/menu/dubai/mirdif/pizza-di-rocco-mirdiff"
- ],
- "Pizza Hut|1174": [
-  "https://deliveroo.ae/menu/dubai/al-barsha-1/pizza-hut-dbrs",
-  "https://deliveroo.ae/menu/dubai/al-barsha-3/pizza-hut-al-barsha-mall",
-  "https://deliveroo.ae/menu/dubai/al-rashidiya/pizza-hut-rashidiya"
- ],
- "Pizza Hut|1187": [
-  "https://deliveroo.ae/menu/dubai/karama/pizza-hut-shindagah",
-  "https://deliveroo.ae/menu/dubai/al-rashidiya/pizza-hut-rashidiya",
-  "https://deliveroo.ae/menu/dubai/al-barsha-1/pizza-hut-dbrs"
- ],
- "Pizza Hut|1204": [
-  "https://deliveroo.ae/menu/dubai/al-nahda-2/pizza-hut-al-nahda",
-  "https://deliveroo.ae/menu/dubai/al-rashidiya/pizza-hut-rashidiya",
-  "https://deliveroo.ae/menu/dubai/al-barsha-1/pizza-hut-dbrs"
+  "https://deliveroo.ae/menu/dubai/marina/pinzatta-marina",
+  "https://deliveroo.ae/menu/dubai/jumeirah-village-circle/pinzatta-jvc"
  ],
  "Pizza Hut|1252": [
   "https://deliveroo.ae/menu/dubai/dubai-business-bay/pizza-hut-dt",
   "https://deliveroo.ae/menu/dubai/dubai-business-bay/pizza-hut-al-samhah-16106-marketplace",
   "https://deliveroo.ae/menu/dubai/umm-suqeim-1/pizza-hut-ums"
  ],
- "Pizza Hut|1258": [
-  "https://deliveroo.ae/menu/dubai/umm-suqeim-1/pizza-hut-ums",
-  "https://deliveroo.ae/menu/dubai/the-meadows/pizza-hut-eh",
-  "https://deliveroo.ae/menu/dubai/muhaisnah-4/pizza-hut-muhaisnah"
- ],
- "Pizza Hut|1272": [
-  "https://deliveroo.ae/menu/dubai/marina/pizza-hut-dubai-marina",
-  "https://deliveroo.ae/menu/dubai/dubai-town-square/pizza-hut-nashama",
-  "https://deliveroo.ae/menu/dubai/dubai-business-bay/pizza-hut-dt"
- ],
- "Pizza Hut|1308": [
-  "https://deliveroo.ae/menu/dubai/jumeirah-1/pizza-hut-mercato",
-  "https://deliveroo.ae/menu/dubai/jlt-west/pizza-hut-jlt",
-  "https://deliveroo.ae/menu/dubai/jumeirah-village-circle/pizza-hut-uae-test-site"
- ],
  "Pizza Hut|1310": [
   "https://deliveroo.ae/menu/dubai/jumeirah-village-circle/pizza-hut-uae-test-site",
   "https://deliveroo.ae/menu/dubai/jumeirah-village-circle/pizza-hut-circle-mall-core",
   "https://deliveroo.ae/menu/dubai/knowledge-village/pizza-hut-dm"
  ],
- "Pizza Hut|1441": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-zahiyah/pizza-hut-abn",
-  "https://deliveroo.ae/menu/abu-dhabi/al-khubeirah/pizza-hut-abs",
-  "https://deliveroo.ae/menu/abu-dhabi/new-al-falah/pizza-hut-falah-city"
+ "Pizza Hut|1540": [
+  "https://deliveroo.ae/menu/sharjah/sharjah-nahda-park/pizza-hut-sharjah",
+  "https://deliveroo.ae/menu/sharjah/al-taawun/pizza-hut-taawon",
+  "https://deliveroo.ae/menu/sharjah/al-jubail/pizza-hut-oruba"
  ],
- "Pizza Hut|1484": [
-  "https://deliveroo.ae/menu/abu-dhabi/shakhbout-city/pizza-hut-khalifa-b-city",
-  "https://deliveroo.ae/menu/abu-dhabi/new-al-falah/pizza-hut-falah-city",
-  "https://deliveroo.ae/menu/abu-dhabi/masdar-city/pizza-hut-masdar-city"
+ "Pizza Pan|1441": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-danah/pizza-pan-hamdan2",
+  "https://deliveroo.ae/menu/abu-dhabi/al-danah/pizza-pan-salam-street2",
+  "https://deliveroo.ae/menu/abu-dhabi/al-danah/pizza-pan-salam-street"
  ],
- "Pizza Hut|1485": [
-  "https://deliveroo.ae/menu/abu-dhabi/mussafah-community/pizza-hut-mosafah-shaabya",
-  "https://deliveroo.ae/menu/abu-dhabi/mussafah-industrial/pizza-hut-mussafah-industrial-area",
-  "https://deliveroo.ae/menu/abu-dhabi/bawabat-east/pizza-hut-baniyas"
- ],
- "Pizza Hut|1492": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-reem-island/pizza-hut-adnoc-al-reem",
-  "https://deliveroo.ae/menu/abu-dhabi/yas-island/pizza-hut-west-yas",
-  "https://deliveroo.ae/menu/abu-dhabi/al-maryah-island/pizza-hut-galleria-al-maryah-16986"
- ],
- "Pizza Hut|1496": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-zahiyah/pizza-hut-abn",
-  "https://deliveroo.ae/menu/abu-dhabi/al-khubeirah/pizza-hut-abs",
-  "https://deliveroo.ae/menu/abu-dhabi/new-al-falah/pizza-hut-falah-city"
- ],
- "Pizza Hut|1498": [
-  "https://deliveroo.ae/menu/abu-dhabi/yas-island/pizza-hut-west-yas",
-  "https://deliveroo.ae/menu/abu-dhabi/al-reem-island/pizza-hut-adnoc-al-reem",
-  "https://deliveroo.ae/menu/abu-dhabi/al-maryah-island/pizza-hut-galleria-al-maryah-16986"
- ],
- "Popeyes, Yas Island|1498": [
-  "https://deliveroo.ae/menu/abu-dhabi/yas-island/popeyes-yas-2-adnoc",
-  "https://deliveroo.ae/menu/abu-dhabi/yas-island/popeyes-yas-1-adnoc",
-  "https://deliveroo.ae/menu/abu-dhabi/al-shamkha/popeyes-shamkha"
+ "Rashid Ali Hassan Cafeteria, Mohammad Bin Zayed City|1484": [
+  "https://deliveroo.ae/menu/abu-dhabi/baniyas-west/rashid-ali-hassan-cafeteria"
  ],
  "Rashid Ali Hassan Cafeteria, Shahama|6816": [
   "https://deliveroo.ae/menu/abu-dhabi/baniyas-west/rashid-ali-hassan-cafeteria"
  ],
- "SFC Plus|1441": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-danah/sfc-plus-hamdan",
-  "https://deliveroo.ae/menu/abu-dhabi/al-danah/sfc-plus-salam-street-core",
-  "https://deliveroo.ae/menu/abu-dhabi/mazyad-mall/sfc-plus-mbz"
+ "Sharing Is Caring|6816": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-shahama/sharing-is-caring-shahama",
+  "https://deliveroo.ae/menu/abu-dhabi/new-al-falah/sharing-is-caring-al-falah",
+  "https://deliveroo.ae/menu/abu-dhabi/al-danah/sharing-is-caring-al-danah"
  ],
- "SFC Plus|1540": [
-  "https://deliveroo.ae/menu/sharjah/al-yarmook/sfc-plus-jesco-core",
-  "https://deliveroo.ae/menu/sharjah/al-samnan/sfc-plus-adnoc-al-talla"
+ "Smashville|1310": [
+  "https://deliveroo.ae/menu/dubai/al-barsha-3/smashville-dxb"
  ],
- "SHAWARMA ABU ALABID|1272": [
-  "https://deliveroo.ae/menu/dubai/arabian-ranches-2/shawarma-abu-alabid",
-  "https://deliveroo.ae/menu/dubai/umm-suqeim-2/shawarma-abu-alabid-cafeteria"
+ "Special Chef Bakery|1540": [
+  "https://deliveroo.ae/menu/sharjah/al-majaz-3/special-chef-bakery"
  ],
- "SHAWARMARY RESTAURANT|1540": [
-  "https://deliveroo.ae/menu/sharjah/al-rifah-2/shawarmary-heera",
-  "https://deliveroo.ae/menu/sharjah/sharjah-industrial-1/shawarmary-sharjah0"
+ "Sri Muruga Bhavan Restaurant|1492": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-danah/sri-muruga-bhavan-restaurant"
  ],
- "SHAWARMARY, JVC|1252": [
-  "https://deliveroo.ae/menu/dubai/jumeirah-village-circle/shawarmary-jvc",
-  "https://deliveroo.ae/menu/dubai/deira/shawarmary-muteena",
-  "https://deliveroo.ae/menu/dubai/silicon-oasis/shawarmary-silicon-oasis"
+ "Starbucks, Adnoc Business Centre Drive Thru|1441": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-nahyan/starbucks-mamoura",
+  "https://deliveroo.ae/menu/abu-dhabi/new-al-falah/starbucks-al-falah",
+  "https://deliveroo.ae/menu/abu-dhabi/bawabat-al-sharq/starbucks-bas-mall"
  ],
- "SHAWERMAN|1531": [
-  "https://deliveroo.ae/menu/sharjah/al-majaz-3/shawerman"
+ "Starbucks, Adnoc Mushrif|1496": [
+  "https://deliveroo.ae/menu/abu-dhabi/abu-dhabi-golf-club/starbucks-sas-al-nakhal",
+  "https://deliveroo.ae/menu/abu-dhabi/bawabat-al-sharq/starbucks-adnoc-old-baniyas-club",
+  "https://deliveroo.ae/menu/abu-dhabi/al-nahyan/starbucks-mamoura"
  ],
- "Shake Shack, Mussafah|1484": [
-  "https://deliveroo.ae/menu/abu-dhabi/shakhbout-city/shake-shack-adnoc-754-shawamekh",
-  "https://deliveroo.ae/menu/abu-dhabi/yas-island/shake-shack-yas-mall",
-  "https://deliveroo.ae/menu/abu-dhabi/dalma-mall/shake-shack-dalma-mall"
+ "Starbucks, Al Anwar Street, Mohammed Bin Zayed City|1484": [
+  "https://deliveroo.ae/menu/abu-dhabi/mohammed-bin-zayed-city/starbucks-al-anwar-street",
+  "https://deliveroo.ae/menu/abu-dhabi/masdar-city/starbucks-etihad-plaza",
+  "https://deliveroo.ae/menu/abu-dhabi/masdar-city/starbucks-city-centre-masdar"
  ],
- "Shawarma Abu Alabid - DIFC|1174": [
-  "https://deliveroo.ae/menu/dubai/arabian-ranches-2/shawarma-abu-alabid",
-  "https://deliveroo.ae/menu/dubai/umm-suqeim-2/shawarma-abu-alabid-cafeteria"
+ "Starbucks, Al Dafrah Blue Tower A|1496": [
+  "https://deliveroo.ae/menu/abu-dhabi/abu-dhabi-golf-club/starbucks-sas-al-nakhal",
+  "https://deliveroo.ae/menu/abu-dhabi/bawabat-al-sharq/starbucks-adnoc-old-baniyas-club",
+  "https://deliveroo.ae/menu/abu-dhabi/al-nahyan/starbucks-mamoura"
  ],
- "Shawarma Juha|1531": [
-  "https://deliveroo.ae/menu/sharjah/al-abar/shawarma-juha-halwan",
-  "https://deliveroo.ae/menu/sharjah/muwailih-food/shawarma-juha-muwaileh"
+ "Starbucks, Al Jada|1540": [
+  "https://deliveroo.ae/menu/sharjah/al-jurainah-park/starbucks-zero-6",
+  "https://deliveroo.ae/menu/sharjah/sharjah-nahda-park/starbucks-sahara-centre",
+  "https://deliveroo.ae/menu/sharjah/al-zahiya-north/starbucks-al-jada"
  ],
- "Shawarma Mama|1204": [
-  "https://deliveroo.ae/menu/dubai/silicon-oasis/shawarma-mama-dso"
+ "Starbucks, Al Nahda Mall, Al Nahda|1204": [
+  "https://deliveroo.ae/menu/dubai/al-wasl/starbucks-boxpark",
+  "https://deliveroo.ae/menu/dubai/garhoud/starbucks-al-garhoud",
+  "https://deliveroo.ae/menu/dubai/al-sufouh/starbucks-uae-test"
  ],
- "Shawarma Street, Muroor Road|1441": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-manhal/shawarma-street-khalidiyah",
-  "https://deliveroo.ae/menu/abu-dhabi/al-zahraa/shawarma-street-al-muroor",
-  "https://deliveroo.ae/menu/abu-dhabi/al-danah/shawarma-street-al-danah"
+ "Starbucks, Barsha Head Office|1174": [
+  "https://deliveroo.ae/menu/dubai/al-barsha-3/starbucks-barsha-coop",
+  "https://deliveroo.ae/menu/dubai/al-barsha-1/starbucks-barsha-head-office",
+  "https://deliveroo.ae/menu/dubai/barsha-south/starbucks-al-barsha-south-mall"
  ],
- "Shot Specialty Cafe|1496": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-waha/shot-specialty-cafe-khalifa",
-  "https://deliveroo.ae/menu/abu-dhabi/al-shamkha/shot-specialty-cafe-shamkha",
-  "https://deliveroo.ae/menu/abu-dhabi/al-zafranah/shot-specialty-cafe-ku-innovation"
+ "Starbucks, Boutik Mall Sun and Sky|1492": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-reem-island/starbucks-boutik-mall",
+  "https://deliveroo.ae/menu/abu-dhabi/yas-island/starbucks-noya-plaza",
+  "https://deliveroo.ae/menu/abu-dhabi/saadiyat/starbucks-saadiyat-island"
  ],
- "Smokeys|1272": [
-  "https://deliveroo.ae/menu/dubai/marina-west/smokeys-pizzeria-marina",
-  "https://deliveroo.ae/menu/dubai/dubai-town-square/smokeys-pizzeria-dubai-town-square",
-  "https://deliveroo.ae/menu/dubai/jafilia/smokeys-jumeirah"
+ "Starbucks, Deerfields Mall|6816": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-nahyan/starbucks-mamoura",
+  "https://deliveroo.ae/menu/abu-dhabi/new-al-falah/starbucks-al-falah",
+  "https://deliveroo.ae/menu/abu-dhabi/bawabat-al-sharq/starbucks-bas-mall"
  ],
- "Stay Healthy|1441": [
-  "https://deliveroo.ae/menu/abu-dhabi/bawabat-al-sharq/stay-healthy-restaurant"
+ "Starbucks, Enoc 1021 Drive Thru|1310": [
+  "https://deliveroo.ae/menu/dubai/jumeirah-village-circle/starbucks-circle-mall",
+  "https://deliveroo.ae/menu/dubai/meadows-8/starbucks-springs-village",
+  "https://deliveroo.ae/menu/dubai/knowledge-village/starbucks-knowledge-village"
  ],
- "Subway, Al Reef|1498": [
+ "Starbucks, Etihad Plaza|1498": [
+  "https://deliveroo.ae/menu/abu-dhabi/yas-island/starbucks-noya-plaza",
+  "https://deliveroo.ae/menu/abu-dhabi/yas-island/starbucks-44763-the-fountain-yas-mall",
+  "https://deliveroo.ae/menu/abu-dhabi/saadiyat/starbucks-saadiyat-island"
+ ],
+ "Starbucks, JLT Almas Tower|1308": [
+  "https://deliveroo.ae/menu/dubai/hopjlt/starbucks-jumeirah-lake-towers-drive-thru",
+  "https://deliveroo.ae/menu/dubai/jlt-west/starbucks-jlt-almas-tower",
+  "https://deliveroo.ae/menu/dubai/tecom/starbucks-irise-tower"
+ ],
+ "Starbucks, Jumeirah Beach Residence 4|1308": [
+  "https://deliveroo.ae/menu/dubai/hopjlt/starbucks-jumeirah-lake-towers-drive-thru",
+  "https://deliveroo.ae/menu/dubai/jlt-west/starbucks-jlt-almas-tower",
+  "https://deliveroo.ae/menu/dubai/tecom/starbucks-irise-tower"
+ ],
+ "Starbucks, Qanat Al Qasba|1531": [
+  "https://deliveroo.ae/menu/sharjah/al-majaz-3/starbucks-qanat-al-qasba",
+  "https://deliveroo.ae/menu/sharjah/al-jurainah-park/starbucks-zero-6",
+  "https://deliveroo.ae/menu/sharjah/al-zahiya-north/starbucks-al-jada"
+ ],
+ "Starbucks, Sharjah Gate Tower|1531": [
+  "https://deliveroo.ae/menu/sharjah/al-majaz-3/starbucks-qanat-al-qasba",
+  "https://deliveroo.ae/menu/sharjah/al-jurainah-park/starbucks-zero-6",
+  "https://deliveroo.ae/menu/sharjah/al-zahiya-north/starbucks-al-jada"
+ ],
+ "Starbucks, Sweihat Sharjah Co-Op, Wasit Suburb|1540": [
+  "https://deliveroo.ae/menu/sharjah/al-jurainah-park/starbucks-zero-6",
+  "https://deliveroo.ae/menu/sharjah/sharjah-nahda-park/starbucks-sahara-centre",
+  "https://deliveroo.ae/menu/sharjah/al-zahiya-north/starbucks-al-jada"
+ ],
+ "Starbucks, Twin Towers, 13th Street|1492": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-reem-island/starbucks-boutik-mall",
+  "https://deliveroo.ae/menu/abu-dhabi/yas-island/starbucks-noya-plaza",
+  "https://deliveroo.ae/menu/abu-dhabi/saadiyat/starbucks-saadiyat-island"
+ ],
+ "Subway, Al Barsha 1 (Souq Extra)|1310": [
+  "https://deliveroo.ae/menu/dubai/knowledge-village/subway-knowledge-village",
+  "https://deliveroo.ae/menu/dubai/studio-city/subway-studio-city-dubai",
+  "https://deliveroo.ae/menu/dubai/deira-city-centre/subway-deira-city-centre"
+ ],
+ "Subway, Al Khawaneej|1204": [
+  "https://deliveroo.ae/menu/dubai/knowledge-village/subway-knowledge-village",
+  "https://deliveroo.ae/menu/dubai/studio-city/subway-studio-city-dubai",
+  "https://deliveroo.ae/menu/dubai/deira-city-centre/subway-deira-city-centre"
+ ],
+ "Subway, Al Markaziyah|1496": [
   "https://deliveroo.ae/menu/abu-dhabi/marina-village/subway-marina-mall"
+ ],
+ "Subway, Al Rigga, Al Muraqqabat|1258": [
+  "https://deliveroo.ae/menu/dubai/knowledge-village/subway-knowledge-village",
+  "https://deliveroo.ae/menu/dubai/studio-city/subway-studio-city-dubai",
+  "https://deliveroo.ae/menu/dubai/deira-city-centre/subway-deira-city-centre"
  ],
  "Subway, Yas North, Yas Island|1498": [
   "https://deliveroo.ae/menu/abu-dhabi/marina-village/subway-marina-mall"
  ],
- "Sushi Mama|1258": [
-  "https://deliveroo.ae/menu/dubai/jlt-west/sushi-mama-jlt",
-  "https://deliveroo.ae/menu/dubai/dubai-business-bay/sushi-mama-business-bay"
+ "Sushi Hub|1174": [
+  "https://deliveroo.ae/menu/dubai/jumeirah-village-circle/sushi-hub-jvc",
+  "https://deliveroo.ae/menu/dubai/marina/sushi-hub-dubai-marina",
+  "https://deliveroo.ae/menu/dubai/dubai-business-bay/sushi-hub-business-bay"
  ],
- "Sushi Mama|1308": [
-  "https://deliveroo.ae/menu/dubai/jlt-west/sushi-mama-jlt",
-  "https://deliveroo.ae/menu/dubai/dubai-business-bay/sushi-mama-business-bay"
+ "TEN11 Coffee Boutique|1496": [
+  "https://deliveroo.ae/menu/abu-dhabi/saadiyat/ten11-coffee-boutique-beach",
+  "https://deliveroo.ae/menu/abu-dhabi/marina-village/ten11-coffee-boutique-marina-mall",
+  "https://deliveroo.ae/menu/abu-dhabi/khalifa-park/ten11-coffee-boutique-khalifa-park"
  ],
- "TIKKA TANOOR|1252": [
-  "https://deliveroo.ae/menu/dubai/south-barsha-arjan/tikka-tanoor-barshan",
-  "https://deliveroo.ae/menu/dubai/jumeirah-3/tikka-tanoor-al-jumeirah",
-  "https://deliveroo.ae/menu/dubai/al-khawaneej-west/tikka-tanoor-al-khawaneej"
+ "Taste Of Malabar|1174": [
+  "https://deliveroo.ae/menu/dubai/al-quoz-3/taste-of-malabar-restaurant-al-qouz"
+ ],
+ "The Acai Spot|1252": [
+  "https://deliveroo.ae/menu/dubai/jafilia/acai-spot-difc",
+  "https://deliveroo.ae/menu/dubai/al-quoz-3/acai-spot-retail"
+ ],
+ "The Baker - فرَّان|1258": [
+  "https://deliveroo.ae/menu/dubai/jafilia/bakers-district",
+  "https://deliveroo.ae/menu/dubai/al-barsha-3/baker-barn",
+  "https://deliveroo.ae/menu/dubai/al-jaddaf/baker-house-jaddaf"
+ ],
+ "Tim Hortons, Al Dafrah|1441": [
+  "https://deliveroo.ae/menu/abu-dhabi/al-danah/tim-hortons-muroor-1",
+  "https://deliveroo.ae/menu/abu-dhabi/al-rayhan-north/tim-hortons-mushrif-mall",
+  "https://deliveroo.ae/menu/abu-dhabi/al-khubeirah/tim-hortons-al-khalidiya"
+ ],
+ "Toby's Estate|1310": [
+  "https://deliveroo.ae/menu/dubai/jumeirah-2/tobys-estate-coffee-roasters",
+  "https://deliveroo.ae/menu/dubai/nad-al-sheba-2/tobys-estate-dubai-avenues",
+  "https://deliveroo.ae/menu/dubai/dubai-hills/tobys-estate-dubai-hills-mall"
  ],
  "Vkusno Russian Kitchen|1272": [
   "https://deliveroo.ae/menu/dubai/marina/vkusno-russian-kitchen-dubai-marina",
   "https://deliveroo.ae/menu/dubai/dubai-business-bay/vkusno-russian-kitchen-business-bay",
   "https://deliveroo.ae/menu/dubai/south-barsha-arjan/vkusno-russian-kitchen-dubai-south-barsha"
  ],
- "Ward Sharqi|1441": [
-  "https://deliveroo.ae/menu/abu-dhabi/al-danah/ward-sharqi"
- ],
- "Zaatar w Zeit, Barsha Heights - TECOM|1174": [
-  "https://deliveroo.ae/menu/dubai/al-sufouh/zaatar-w-zeit-internet-city",
-  "https://deliveroo.ae/menu/dubai/green-community-village/zaatar-w-zeit-last-exit-al-khawaneej",
-  "https://deliveroo.ae/menu/dubai/tecom/zaatar-w-zeit-tecom"
- ],
  "Zaatar w Zeit, Madinat Khalifa - A|1498": [
   "https://deliveroo.ae/menu/abu-dhabi/masdar-city/zaatar-w-zeit-masdar",
   "https://deliveroo.ae/menu/abu-dhabi/masdar-city/zaatar-w-zeit-khalifa-a",
   "https://deliveroo.ae/menu/abu-dhabi/al-khubeirah/zaatar-w-zeit-corniche"
  ],
- "Zaroob زاروب, SZR|1187": [
-  "https://deliveroo.ae/menu/dubai/al-barsha-3/zaroob-of-galleria-mall",
+ "Zaroob زاروب, SZR|1258": [
   "https://deliveroo.ae/menu/dubai/silicon-oasis/zaroob-dso-2",
-  "https://deliveroo.ae/menu/dubai/media-city/zaroob-marina"
+  "https://deliveroo.ae/menu/dubai/media-city/zaroob-marina",
+  "https://deliveroo.ae/menu/dubai/deira-city-centre/zaroob-deira"
+ ],
+ "Zekrayat Al Sham|1531": [
+  "https://deliveroo.ae/menu/sharjah/al-khan-lagoon/zekrayat-al-sham-al-taawun"
  ]
 }
