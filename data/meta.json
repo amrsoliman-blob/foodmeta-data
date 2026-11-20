@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-20T11:18:41+00:00",
-  "meals": 3239,
-  "restaurants": 222,
+  "updatedAt": "2026-11-20T19:58:00+00:00",
+  "meals": 3267,
+  "restaurants": 226,
   "areas": [
     "Dubai: downtown-burj-khalifa",
     "Dubai: jumeirah-lakes-towers-jlt",
@@ -22,18 +22,16 @@
     "Sharjah: al-nahda"
   ],
   "cities": {
-    "Dubai": 1532,
-    "Abu Dhabi": 1342,
-    "Sharjah": 365
+    "Dubai": 1504,
+    "Abu Dhabi": 1364,
+    "Sharjah": 399
   },
   "providers": {
-    "TALABAT": 3239,
+    "TALABAT": 3267,
     "KEETA": 0
   },
-  "errors": [
-    "https://www.talabat.com/uae/restaurant/632966/mcdonalds-al-barsha-1?aid=1174: HTTPSConnectionPool(host='www.talabat.com', port=443): Read timed out. (read timeout=30)"
-  ],
-  "deliverooMatches": 143,
-  "discountedMeals": 1220,
+  "errors": [],
+  "deliverooMatches": 142,
+  "discountedMeals": 1131,
   "restaurantsWithOffers": 0
 }
